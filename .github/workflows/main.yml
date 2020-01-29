@@ -1,0 +1,22 @@
+name: Build and Deploy
+on:
+  push:	
+    branches:	
+      - deploy
+jobs:
+  build:
+    runs-on: ubuntu-latest # The first job utilizes windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+        
+      - name: Install # The project is built using npm and placed in the 'build' folder.
+        run: |
+          npm install
+          npm run-script build
+ 
+      - name: Build and Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: master
