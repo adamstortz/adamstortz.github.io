@@ -6,7 +6,7 @@ import {
   preloadQuery,
   usePreloadedQuery
 } from "react-relay/hooks";
-import RelayEnvironment from "./RelayEnvironment";
+import RelayEnvironment from "./relay/RelayEnvironment";
 
 const { Suspense } = React;
 
