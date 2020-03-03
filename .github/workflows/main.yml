@@ -1,7 +1,7 @@
 name: Build and Deploy
 on:
-  push:	
-    branches:	
+  push:
+    branches:
       - deploy
 jobs:
   build:
@@ -9,15 +9,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v1
-        
+
       - name: Install # The project is built using npm and placed in the 'build' folder.
         run: |
           npm install
-          npm run-script build
- 
+          npm run build
+
       - name: Build and Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: master
-          FOLDER: build
+          FOLDER: dist/apps/portfolio
