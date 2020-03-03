@@ -174,7 +174,7 @@ export const App = () => {
               className="resource flex"
               href="https://connect.nrwl.io/app/courses/nx-workspaces/intro"
             >
-              Nx video course
+              Nx video course-
             </a>
           </li>
           <li className="col-span-2">
