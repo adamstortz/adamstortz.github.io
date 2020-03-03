@@ -8,7 +8,9 @@ jobs:
     runs-on: ubuntu-latest # The first job utilizes windows-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
+        with:
+          persist-credentials: false
 
       - name: Install # The project is built using npm and placed in the 'build' folder.
         run: |
