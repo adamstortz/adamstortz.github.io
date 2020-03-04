@@ -62,7 +62,7 @@ var App = () => {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "resource flex",
     href: "https://connect.nrwl.io/app/courses/nx-workspaces/intro"
-  }, "Nx video course")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "Nx video course-")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "col-span-2"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "resource flex",
