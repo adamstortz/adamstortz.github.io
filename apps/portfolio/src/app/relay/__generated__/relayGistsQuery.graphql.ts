@@ -1,6 +1,6 @@
 /* tslint:disable */
 /* eslint-disable */
-/* @relayHash fe8b6a4d303d87205c04ab3da0592942 */
+/* @relayHash a6e2952e96bb378e58a2e5207fc473ef */
 
 import { ConcreteRequest } from "relay-runtime";
 export type relayGistsQueryVariables = {};
@@ -9,12 +9,10 @@ export type relayGistsQueryResponse = {
         readonly name: string | null;
         readonly gists: {
             readonly nodes: ReadonlyArray<{
-                readonly id: string;
                 readonly name: string;
                 readonly description: string | null;
                 readonly files: ReadonlyArray<{
                     readonly name: string | null;
-                    readonly encodedName: string | null;
                     readonly extension: string | null;
                     readonly text: string | null;
                 } | null> | null;
@@ -35,15 +33,14 @@ query relayGistsQuery {
     name
     gists(first: 5) {
       nodes {
-        id
         name
         description
         files {
           name
-          encodedName
           extension
           text
         }
+        id
       }
     }
     id
@@ -66,82 +63,52 @@ v1 = {
   "args": null,
   "storageKey": null
 },
-v2 = {
+v2 = [
+  {
+    "kind": "Literal",
+    "name": "first",
+    "value": 5
+  }
+],
+v3 = {
+  "kind": "ScalarField",
+  "alias": null,
+  "name": "description",
+  "args": null,
+  "storageKey": null
+},
+v4 = {
+  "kind": "LinkedField",
+  "alias": null,
+  "name": "files",
+  "storageKey": null,
+  "args": null,
+  "concreteType": "GistFile",
+  "plural": true,
+  "selections": [
+    (v1/*: any*/),
+    {
+      "kind": "ScalarField",
+      "alias": null,
+      "name": "extension",
+      "args": null,
+      "storageKey": null
+    },
+    {
+      "kind": "ScalarField",
+      "alias": null,
+      "name": "text",
+      "args": null,
+      "storageKey": null
+    }
+  ]
+},
+v5 = {
   "kind": "ScalarField",
   "alias": null,
   "name": "id",
   "args": null,
   "storageKey": null
-},
-v3 = {
-  "kind": "LinkedField",
-  "alias": null,
-  "name": "gists",
-  "storageKey": "gists(first:5)",
-  "args": [
-    {
-      "kind": "Literal",
-      "name": "first",
-      "value": 5
-    }
-  ],
-  "concreteType": "GistConnection",
-  "plural": false,
-  "selections": [
-    {
-      "kind": "LinkedField",
-      "alias": null,
-      "name": "nodes",
-      "storageKey": null,
-      "args": null,
-      "concreteType": "Gist",
-      "plural": true,
-      "selections": [
-        (v2/*: any*/),
-        (v1/*: any*/),
-        {
-          "kind": "ScalarField",
-          "alias": null,
-          "name": "description",
-          "args": null,
-          "storageKey": null
-        },
-        {
-          "kind": "LinkedField",
-          "alias": null,
-          "name": "files",
-          "storageKey": null,
-          "args": null,
-          "concreteType": "GistFile",
-          "plural": true,
-          "selections": [
-            (v1/*: any*/),
-            {
-              "kind": "ScalarField",
-              "alias": null,
-              "name": "encodedName",
-              "args": null,
-              "storageKey": null
-            },
-            {
-              "kind": "ScalarField",
-              "alias": null,
-              "name": "extension",
-              "args": null,
-              "storageKey": null
-            },
-            {
-              "kind": "ScalarField",
-              "alias": null,
-              "name": "text",
-              "args": null,
-              "storageKey": null
-            }
-          ]
-        }
-      ]
-    }
-  ]
 };
 return {
   "kind": "Request",
@@ -162,7 +129,31 @@ return {
         "plural": false,
         "selections": [
           (v1/*: any*/),
-          (v3/*: any*/)
+          {
+            "kind": "LinkedField",
+            "alias": null,
+            "name": "gists",
+            "storageKey": "gists(first:5)",
+            "args": (v2/*: any*/),
+            "concreteType": "GistConnection",
+            "plural": false,
+            "selections": [
+              {
+                "kind": "LinkedField",
+                "alias": null,
+                "name": "nodes",
+                "storageKey": null,
+                "args": null,
+                "concreteType": "Gist",
+                "plural": true,
+                "selections": [
+                  (v1/*: any*/),
+                  (v3/*: any*/),
+                  (v4/*: any*/)
+                ]
+              }
+            ]
+          }
         ]
       }
     ]
@@ -182,8 +173,33 @@ return {
         "plural": false,
         "selections": [
           (v1/*: any*/),
-          (v3/*: any*/),
-          (v2/*: any*/)
+          {
+            "kind": "LinkedField",
+            "alias": null,
+            "name": "gists",
+            "storageKey": "gists(first:5)",
+            "args": (v2/*: any*/),
+            "concreteType": "GistConnection",
+            "plural": false,
+            "selections": [
+              {
+                "kind": "LinkedField",
+                "alias": null,
+                "name": "nodes",
+                "storageKey": null,
+                "args": null,
+                "concreteType": "Gist",
+                "plural": true,
+                "selections": [
+                  (v1/*: any*/),
+                  (v3/*: any*/),
+                  (v4/*: any*/),
+                  (v5/*: any*/)
+                ]
+              }
+            ]
+          },
+          (v5/*: any*/)
         ]
       }
     ]
@@ -192,10 +208,10 @@ return {
     "operationKind": "query",
     "name": "relayGistsQuery",
     "id": null,
-    "text": "query relayGistsQuery {\n  user(login: \"adamstortz\") {\n    name\n    gists(first: 5) {\n      nodes {\n        id\n        name\n        description\n        files {\n          name\n          encodedName\n          extension\n          text\n        }\n      }\n    }\n    id\n  }\n}\n",
+    "text": "query relayGistsQuery {\n  user(login: \"adamstortz\") {\n    name\n    gists(first: 5) {\n      nodes {\n        name\n        description\n        files {\n          name\n          extension\n          text\n        }\n        id\n      }\n    }\n    id\n  }\n}\n",
     "metadata": {}
   }
 };
 })();
-(node as any).hash = '6ba59254c64c3a492a66fc69a042b0dc';
+(node as any).hash = 'e979bff334132228ac45890eeac792f8';
 export default node;

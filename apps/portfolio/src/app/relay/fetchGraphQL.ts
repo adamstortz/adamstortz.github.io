@@ -1,6 +1,6 @@
 async function fetchGraphQL(text, variables) {
   const REACT_APP_GITHUB_AUTH_TOKEN =
-    'a06f77742e43e3aef36278442133f91c5e08c8e8';
+    '4a82c6b4b18479c95798ed408fd68bf46fc026a2';
 
   // Fetch data from GitHub's GraphQL API:
   const response = await fetch('https://api.github.com/graphql', {

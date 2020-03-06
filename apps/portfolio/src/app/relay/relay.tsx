@@ -55,16 +55,29 @@ const gistsQuery = preloadQuery(RelayEnvironment, GistsQuery, {});
 function App(props) {
   // const data = usePreloadedQuery(RepositoryNameQuery, props.preloadedQuery);
   const gists = usePreloadedQuery(GistsQuery, props.gistsQuery);
-  // const gistsRender = '';
-  console.log(gists);
-  return (
-    <div className="App">
-      <header className="App-header">
-        {/* <p>--{data.repository.name}</p> */}
-        {JSON.stringify(gists)}
-      </header>
+  const gistsRender = (
+    <div>
+      <h2>{gists.user.name}</h2>
+
+      {gists.user.gists.nodes.map(gist => {
+        return (
+          <div>
+            <h3>{gist.description}</h3>
+
+            {gist.files.map(file => {
+              return (
+                <div>
+                  <h4>{file.name}</h4>
+                  <pre>{file.text}</pre>
+                </div>
+              );
+            })}
+          </div>
+        );
+      })}
     </div>
   );
+  return <div className="App">{gistsRender}</div>;
 }
 
 // The above component needs to know how to access the Relay environment, and we
