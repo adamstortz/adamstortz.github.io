@@ -1,7 +1,7 @@
 import { Base64 } from 'js-base64';
 async function fetchGraphQL(text, variables) {
   const REACT_APP_GITHUB_AUTH_TOKEN = Base64.decode(
-    'NGE4MmM2YjRiMTg0NzljOTU3OThlZDQwOGZkNjhiZjQ2ZmMwMjZhMgo='
+    'MjNiYzQzZWY2MjRhNWJmZmM5ZTkzZjI5NzVlMjFmODBkY2NjNDBjNAo='
   );
 
   // Fetch data from GitHub's GraphQL API:
