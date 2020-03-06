@@ -19,11 +19,31 @@ const RepositoryNameQuery = graphql`
   }
 `;
 
+const GistsQuery = graphql`
+  query relayGistsQuery {
+    user(login: "adamstortz") {
+      name
+      gists(first: 5) {
+        nodes {
+          name
+          description
+          files {
+            name
+            extension
+            text
+          }
+        }
+      }
+    }
+  }
+`;
+
 // Immediately load the query as our app starts. For a real app, we'd move this
 // into our routing configuration, preloading data as we transition to new routes.
-const preloadedQuery = preloadQuery(RelayEnvironment, RepositoryNameQuery, {
-  /* query variables */
-});
+// const preloadedQuery = preloadQuery(RelayEnvironment, RepositoryNameQuery, {
+/* query variables */
+// });
+const gistsQuery = preloadQuery(RelayEnvironment, GistsQuery, {});
 
 // Inner component that reads the preloaded query results via `usePreloadedQuery()`.
 // This works as follows:
@@ -33,12 +53,15 @@ const preloadedQuery = preloadQuery(RelayEnvironment, RepositoryNameQuery, {
 // - If the query failed, it throws the failure error. For simplicity we aren't
 //   handling the failure case here.
 function App(props) {
-  const data = usePreloadedQuery(RepositoryNameQuery, props.preloadedQuery);
-  console.log(data);
+  // const data = usePreloadedQuery(RepositoryNameQuery, props.preloadedQuery);
+  const gists = usePreloadedQuery(GistsQuery, props.gistsQuery);
+  // const gistsRender = '';
+  console.log(gists);
   return (
     <div className="App">
       <header className="App-header">
-        <p>--{data.repository.name}</p>
+        {/* <p>--{data.repository.name}</p> */}
+        {JSON.stringify(gists)}
       </header>
     </div>
   );
@@ -53,7 +76,10 @@ function AppRoot(props) {
   return (
     <RelayEnvironmentProvider environment={RelayEnvironment}>
       <Suspense fallback={'Loading...'}>
-        <App preloadedQuery={preloadedQuery} />
+        <App
+          // preloadedQuery={preloadedQuery}
+          gistsQuery={gistsQuery}
+        />
       </Suspense>
     </RelayEnvironmentProvider>
   );
