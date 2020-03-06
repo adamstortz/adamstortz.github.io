@@ -3,6 +3,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 
 import { ReactComponent as Logo } from './logo.svg';
+import Relay from './relay/relay';
 import star from './star.svg';
 
 const StyledApp = styled.div`
@@ -168,6 +169,7 @@ export const App = () => {
           </a>
         </div>
         <p>Here are some links to help you get started.</p>
+        <Relay></Relay>
         <ul className="resources">
           <li className="col-span-2">
             <a
