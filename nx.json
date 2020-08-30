@@ -28,6 +28,9 @@
     "github-io-e2e": {
       "tags": [],
       "implicitDependencies": ["github-io"]
+    },
+    "ui": {
+      "tags": []
     }
   }
 }
