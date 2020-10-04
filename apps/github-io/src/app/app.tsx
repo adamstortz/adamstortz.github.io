@@ -1,16 +1,23 @@
 import React from 'react';
+import { map, pipe, toPairs } from 'ramda';
 
 import './app.scss';
 
-import { ReactComponent as Logo } from './logo.svg';
-import star from './star.svg';
 import { ResumeHeader, ResumeHeaderProps } from '@adamstortz/ui';
+
+import { NameValue, NameValueProps } from '@adamstortz/ui';
 
 export const App = () => {
   const data = {
     name: 'Adam Stortz',
     title: 'Cloud Solution Architect',
     summary: 'Ace problem solver',
+    contacts: {
+      phone: '3097149981',
+      email: 'adam.stortz@live.com',
+      LinkedIn: 'linkedin.com/in/adamstortz/',
+      GitHub: 'github.com/adamstortz'
+    },
     experience: []
   }
   const headerProps: ResumeHeaderProps = {
@@ -18,6 +25,11 @@ export const App = () => {
     subheader: data.title,
     detail: data.summary
   }
+
+  const contacts = pipe(
+    toPairs,
+    map(([key, value]: [string, string]) => <NameValue name={key} value={value}/>)
+  )(data.contacts)
   /*
    * Replace the elements below with your own.
    *
@@ -25,7 +37,7 @@ export const App = () => {
    */
   return (
     <div className="app">
-      <ResumeHeader {...headerProps}></ResumeHeader>
+      <ResumeHeader {...headerProps}>{contacts}</ResumeHeader>
     </div>
   );
 };

@@ -6,7 +6,8 @@ import './resume-header.scss';
 export interface ResumeHeaderProps {
   header: string,
   subheader: string,
-  detail: string
+  detail: string,
+  children?: any,
 }
 
 export const ResumeHeader = (props: ResumeHeaderProps) => {
@@ -15,6 +16,7 @@ export const ResumeHeader = (props: ResumeHeaderProps) => {
       <h1>{props.header}</h1>
       <h2>{props.subheader}</h2>
       <p>{props.detail}</p>
+      {props.children}
     </div>
   );
 };
