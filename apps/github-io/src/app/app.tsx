@@ -28,7 +28,7 @@ export const App = () => {
 
   const contacts = pipe(
     toPairs,
-    map(([key, value]: [string, string]) => <NameValue name={key} value={value}/>)
+    map(([key, value]: [string, string]) => <NameValue key={`contact-${key}`} name={key} value={value}/>)
   )(data.contacts)
   /*
    * Replace the elements below with your own.
