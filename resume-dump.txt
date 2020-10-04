@@ -1,0 +1,142 @@
+https://zety.com/blog/modern-resume-templates
+
+Jobs
+Redstone Content Solutions
+Technical Team Lead and Solution Architect
+Contracts
+
+	▪	Anthem
+	⁃	WCS
+	⁃	Custom WCS REST API  (headless)
+	⁃	groovy
+	⁃	configurable
+	⁃	Developer Training
+	⁃	Import tool
+	⁃	Content report
+	⁃	hierarchy manager
+	⁃	URL generator dashboard
+	⁃	Architecture and solutions team
+	⁃	Cypress with docker automation and code coverage with integration to sonarqube
+	⁃	DevOps
+	⁃	Shift to kubernetes and openshift
+	⁃	90 services
+	⁃	500-1500 containers
+	⁃	implemented custom python template solution
+	⁃	converted to helm 3 and helmfile
+	⁃	Tekton
+	⁃	argo
+	⁃	signalfx
+	⁃	rsyslog
+	⁃	nginx
+	⁃	redis
+	⁃	istio
+	⁃	gitops
+	⁃	docker standardization and build optimization
+	⁃	container based development
+	⁃	sops
+	⁃	
+	▪	MOHELA
+	⁃	web center capture
+	⁃	oracle forms recognition
+	▪	Sherwin-Williams
+	⁃	WCS dev and training
+	⁃	WCP
+	▪	Taconic
+	⁃	WCS dev and custom search with apache sole
+	▪	City of Hope
+	⁃	WCS dev
+	▪	accident fund
+	⁃	ADF training
+	▪	South-west gas
+	⁃	Git, Gulp, Gradle training
+	⁃	Javascript build streamlining
+	⁃	WCS development
+	▪	Emerson
+	⁃	DI development, customization, install
+	⁃	WCC Migration
+	⁃	Workflow Dashboard
+	⁃	Support
+	⁃	CSH
+	▪	Netapp
+	⁃	WCC development
+	⁃	WCC SiteStudio
+	▪	NYC Parks and rec WCC upgrade
+	▪	Pella - WCC vision casting
+	▪	Standard Forwarding
+	⁃	Oracle Document capture setup and automation
+	⁃	Website rewrite to Oracle ADF
+	⁃	WCC upgrade
+	▪	Internal
+	⁃	Oracle Cloud Integration Platform and CLI
+	⁃	Nodejs
+	⁃	typescript
+	⁃	swagger
+	⁃	SOW Builder
+	⁃	Angular
+	⁃	Firebase
+	⁃	Report Automation
+	⁃	Nodejs
+	⁃	Oracle faas
+	⁃	Internal signage automation
+	⁃	Nodejs
+	⁃	angular
+	⁃	Recruiting and Technical Interviewing
+	⁃	tech talks
+	⁃	Executive Leadership Team
+	⁃	Docusign/OCE integration
+	⁃	Nodejs
+	⁃	Angularjs
+	⁃	Docusign MVP
+	⁃	National Academy of Science
+	⁃	OCE training
+	⁃	Custom component development
+	⁃	
+	⁃	Content Synergy Hub
+	⁃	Oracle ADF
+	⁃	Grails
+	⁃	AngularJS
+	⁃	Vanguard
+	⁃	Angular
+	⁃	Nodejs
+	⁃	Distributed Index
+	⁃	Elastic Search
+	⁃	WCC
+	⁃	Java
+	⁃	Vagrant/Puppet
+	⁃	CI/CD - teamcity, GitHub actions
+	⁃	artifactory
+	⁃	gradle standardization
+	⁃	wcc component builds
+	⁃	Oracle fnProject
+	⁃	training
+	⁃	Git
+	⁃	bash
+	⁃	Hiera markdown generator
+	⁃	grails json api extension
+	⁃	Training site template and components for OCE
+	⁃	OPN champion and cert director
+	⁃	network
+	⁃	juniper and fortigate implementation and management
+	⁃	employee mentoring
+	⁃	1-on-1s
+	⁃	presentations at
+	⁃	collaborate
+	⁃	openworld
+
+Stryker
+	•	Sr Tech Lead - Web Applications
+	⁃	SharePoint
+	•	Sr Tech Lead - Business Intelligence
+	⁃	SSRS, SSIS, SSAS
+	⁃	PerformancePoint
+	•	Sr Software Developer
+	⁃	Java
+	⁃	.NET
+	•	Programmer/Analyst
+	•	mentoring
+
+Certifications
+	•	WebCenter Portal, Sites, Content
+	•	ADF
+	•	Java
+	•	CKA

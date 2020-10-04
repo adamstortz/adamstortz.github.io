@@ -4,9 +4,20 @@ import './app.scss';
 
 import { ReactComponent as Logo } from './logo.svg';
 import star from './star.svg';
-import { ResumeHeader } from '@adamstortz/ui';
+import { ResumeHeader, ResumeHeaderProps } from '@adamstortz/ui';
 
 export const App = () => {
+  const data = {
+    name: 'Adam Stortz',
+    title: 'Cloud Solution Architect',
+    summary: 'Ace problem solver',
+    experience: []
+  }
+  const headerProps: ResumeHeaderProps = {
+    header: data.name,
+    subheader: data.title,
+    detail: data.summary
+  }
   /*
    * Replace the elements below with your own.
    *
@@ -14,7 +25,7 @@ export const App = () => {
    */
   return (
     <div className="app">
-      <ResumeHeader></ResumeHeader>
+      <ResumeHeader {...headerProps}></ResumeHeader>
     </div>
   );
 };
