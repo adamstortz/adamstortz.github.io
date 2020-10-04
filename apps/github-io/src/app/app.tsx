@@ -40,10 +40,23 @@ export const App = () => {
   }, data.jobs)
 
   return (
-    <div className="app">
-      <img src="assets/headshot.jpg"></img>
-      <ResumeHeader {...headerProps}>{contacts}</ResumeHeader>
-      {timeline}
+    <div className="app container">
+      <div className="row">
+        <div className="col-3">
+          <img src="assets/headshot.jpg"></img>
+        </div>
+        <div className="col">
+          <ResumeHeader {...headerProps}>{contacts}</ResumeHeader>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-3">
+          Sidebar!
+        </div>
+        <div className="col">
+          {timeline}
+        </div>
+      </div>
     </div>
   );
 };
