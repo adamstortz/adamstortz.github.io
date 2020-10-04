@@ -1,11 +1,12 @@
 import React from 'react';
-import { map, pipe, toPairs } from 'ramda';
-
+import { isNil, map, pipe, toPairs } from 'ramda';
+import moment from 'moment';
 import './app.scss';
 
 import { ResumeHeader, ResumeHeaderProps } from '@adamstortz/ui';
 
-import { NameValue, NameValueProps } from '@adamstortz/ui';
+import { NameValue } from '@adamstortz/ui';
+import { TimelineItem } from '@adamstortz/ui';
 
 export const App = () => {
   const data = {
@@ -18,7 +19,23 @@ export const App = () => {
       LinkedIn: 'linkedin.com/in/adamstortz/',
       GitHub: 'github.com/adamstortz'
     },
-    experience: []
+    jobs: [
+      {
+        employer: {
+          name: "Redstone Content Solutions",
+          website: "https://www.redstonecontentsolutions.com/",
+        },
+        start: "20110415",
+      },
+      {
+        employer: {
+          name: "Stryker",
+          website: "https://www.stryker.com/",
+        },
+        start: "20040215",
+        end: "20110415",
+      }
+    ]
   }
   const headerProps: ResumeHeaderProps = {
     header: data.name,
@@ -28,16 +45,19 @@ export const App = () => {
 
   const contacts = pipe(
     toPairs,
-    map(([key, value]: [string, string]) => <NameValue key={`contact-${key}`} name={key} value={value}/>)
+    map(([key, value]: [string, string]) => <NameValue key={`contact-${key}`} name={key} value={value} />)
   )(data.contacts)
-  /*
-   * Replace the elements below with your own.
-   *
-   * Note: The corresponding styles are in the ./app.scss file.
-   */
+
+  const timeline = map(job => {
+    const end = isNil(job.end) ? null : moment(job.end)
+   return <TimelineItem start={moment(job.start)} end={end}>{job.employer.name}</TimelineItem>
+  }, data.jobs)
+
   return (
     <div className="app">
+      <img src="assets/headshot.jpg"></img>
       <ResumeHeader {...headerProps}>{contacts}</ResumeHeader>
+      {timeline}
     </div>
   );
 };
