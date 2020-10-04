@@ -1,6 +1,6 @@
 import React from 'react';
 import moment from 'moment';
-import {isNil, evolve, pipe} from 'ramda';
+import { isNil, evolve, pipe } from 'ramda';
 import './timeline-item.scss';
 
 /* eslint-disable-next-line */
@@ -10,18 +10,14 @@ export interface TimelineItemProps {
   children?: any,
 }
 
-const formatDate = (date: moment.Moment) => {
-  console.log('here', date,  isNil(date)) 
-  return isNil(date) ? 'Present' :
-   date.format('YYYY-MM')
-}
+const formatDate = (date: moment.Moment) => isNil(date) ? 'Present' : date.format('YYYY-MM')
+
 const prepProps = evolve({
   start: formatDate,
   end: formatDate
 })
 
 export const TimelineItemComponent = (props: TimelineItemProps) => {
-  console.log(props.start)
   return (
     <div>
       <h1>{props.start} - {props.end}</h1>

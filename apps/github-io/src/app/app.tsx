@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { isNil, map, pipe, toPairs } from 'ramda';
 import moment from 'moment';
+
 import './app.scss';
 
 import { ResumeHeader, ResumeHeaderProps } from '@adamstortz/ui';
@@ -9,34 +10,19 @@ import { NameValue } from '@adamstortz/ui';
 import { TimelineItem } from '@adamstortz/ui';
 
 export const App = () => {
-  const data = {
-    name: 'Adam Stortz',
-    title: 'Cloud Solution Architect',
-    summary: 'Ace problem solver',
-    contacts: {
-      phone: '3097149981',
-      email: 'adam.stortz@live.com',
-      LinkedIn: 'linkedin.com/in/adamstortz/',
-      GitHub: 'github.com/adamstortz'
-    },
-    jobs: [
-      {
-        employer: {
-          name: "Redstone Content Solutions",
-          website: "https://www.redstonecontentsolutions.com/",
-        },
-        start: "20110415",
-      },
-      {
-        employer: {
-          name: "Stryker",
-          website: "https://www.stryker.com/",
-        },
-        start: "20040215",
-        end: "20110415",
-      }
-    ]
-  }
+
+  const [data, setData]: [any, any] = useState();
+  const [isLoading, setIsLoading]: [any, any] = useState(true);
+ 
+  useEffect(() => {
+    fetch('assets/data.json')
+    .then(response => response.json())
+    .then(data => setData(data))
+    .then(() => setIsLoading(false))
+  }, []);
+
+  if (isLoading) return <h1>Loading...</h1>;
+
   const headerProps: ResumeHeaderProps = {
     header: data.name,
     subheader: data.title,
@@ -50,7 +36,7 @@ export const App = () => {
 
   const timeline = map(job => {
     const end = isNil(job.end) ? null : moment(job.end)
-   return <TimelineItem start={moment(job.start)} end={end}>{job.employer.name}</TimelineItem>
+   return <TimelineItem key={`timeline-job-${job.start}`} start={moment(job.start)} end={end}>{job.employer.name}</TimelineItem>
   }, data.jobs)
 
   return (
