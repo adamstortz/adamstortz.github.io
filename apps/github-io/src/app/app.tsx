@@ -9,6 +9,9 @@ import { ResumeHeader, ResumeHeaderProps } from '@adamstortz/ui';
 import { NameValue } from '@adamstortz/ui';
 import { TimelineItem } from '@adamstortz/ui';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+
 export const App = () => {
 
   const [data, setData]: [any, any] = useState();
@@ -52,6 +55,7 @@ export const App = () => {
       <div className="row">
         <div className="col-3">
           Sidebar!
+          <FontAwesomeIcon icon={faCoffee} />
         </div>
         <div className="col">
           {timeline}
