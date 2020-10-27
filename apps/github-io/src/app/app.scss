@@ -1,6 +1,9 @@
 
-@import "~bootstrap/scss/bootstrap";
 
 img {
   width: 100%;
+}
+
+.MuiTimelineItem-missingOppositeContent:before {
+  flex: 0;
 }
