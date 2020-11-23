@@ -13,10 +13,27 @@ import {
   SkillsComponent,
 } from './components';
 import { Box } from '@material-ui/core';
-// const theme = {
-//   background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
-// };
+
+import { orange } from '@material-ui/core/colors';
+
+declare module '@material-ui/core/styles/createMuiTheme' {
+  interface Theme {
+    common: {
+      sidebarWidth: string;
+    };
+  }
+  // allow configuration using `createMuiTheme`
+  interface ThemeOptions {
+    common: {
+      sidebarWidth: string;
+    };
+  }
+}
+
 const theme = createMuiTheme({
+  common: {
+    sidebarWidth: '200px',
+  },
   palette: {
     // primary: {
     //   main: purple[500],

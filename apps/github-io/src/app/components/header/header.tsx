@@ -49,10 +49,10 @@ export const HeaderComponent = ({
         />
         <Box className={classes.box}>
           <Typography variant="h2">{name}</Typography>
-          <Typography variant="subtitle1">{title}</Typography>
+          <Typography variant="body1">{title}</Typography>
         </Box>
         <Box className={classes.box}>
-          <Typography>{summary}</Typography>
+          <Typography variant="overline">{summary}</Typography>
         </Box>
       </Box>
       <List

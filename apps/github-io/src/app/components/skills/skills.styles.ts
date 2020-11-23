@@ -1,6 +1,6 @@
 import { makeStyles } from '@material-ui/core/styles';
 
-export const useSkillsStyles = makeStyles({
+export const useSkillsStyles = makeStyles((theme) => ({
   root: {
     '& .MuiLabel-amount': {
       fontSize: '0.75rem',
@@ -8,6 +8,6 @@ export const useSkillsStyles = makeStyles({
       marginLeft: 'auto',
       paddingLeft: 16,
     },
-    width: '200px',
+    width: theme.common.sidebarWidth,
   },
-});
+}));

@@ -21,6 +21,6 @@ export const useHeaderStyles = makeStyles((theme) => ({
     whiteSpace: 'nowrap',
   },
   headshot: {
-    width: '200px',
+    width: theme.common.sidebarWidth,
   },
 }));

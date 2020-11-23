@@ -1,6 +1,6 @@
 import { makeStyles } from '@material-ui/core/styles';
 
-export const useTimelineStyles = makeStyles({
+export const useTimelineStyles = makeStyles((theme) => ({
   logo: {
     width: '100%',
   },
@@ -26,4 +26,4 @@ export const useTimelineStyles = makeStyles({
   emptyDot: {
     marginLeft: '12px',
   },
-});
+}));
