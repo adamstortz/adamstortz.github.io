@@ -7,7 +7,23 @@ import {
   TimelineComponent,
   SkillsComponent,
 } from './components';
-
+import { createMuiTheme } from '@material-ui/core/styles';
+import purple from '@material-ui/core/colors/purple';
+import green from '@material-ui/core/colors/green';
+import { ThemeProvider } from '@material-ui/core/styles';
+// const theme = {
+//   background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
+// };
+const theme = createMuiTheme({
+  palette: {
+    // primary: {
+    //   main: purple[500],
+    // },
+    // secondary: {
+    //   main: green[500],
+    // },
+  },
+});
 export const App = () => {
   const [data, setData]: [any, any] = useState();
   const [isLoading, setIsLoading]: [any, any] = useState(true);
@@ -23,9 +39,17 @@ export const App = () => {
   console.log(data);
   return (
     <>
-      <HeaderComponent avatar={data.avatar} contactOptions={data.contacts} />
-      <TimelineComponent timelineItems={data.jobs}></TimelineComponent>
-      <SkillsComponent skills={data.skills}></SkillsComponent>
+      <ThemeProvider theme={theme}>
+        <HeaderComponent
+          name={data.name}
+          title={data.title}
+          summary={data.summary}
+          avatar={data.avatar}
+          contactOptions={data.contacts}
+        />
+        <TimelineComponent timelineItems={data.jobs}></TimelineComponent>
+        <SkillsComponent skills={data.skills}></SkillsComponent>
+      </ThemeProvider>
     </>
   );
 };
