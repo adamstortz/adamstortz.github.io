@@ -1,39 +1,78 @@
 {
-    "name": "Adam Stortz",
-    "title": "Cloud Solution Architect",
-    "summary": "Ace problem solver",
-    "avatar": {
-      "imageUri": "assets/headshot.jpg",
-      "altText": "Adam Stortz"
-    },
-    "contacts": [
-      {"type":"Phone", "text": ["3097149981"]},
-      {"type":"Email", "text": ["adam.stortz@live.com"]},
-      {"type":"Home", "text": ["879 Rustic View Ct.", "Eldridge, IA 52748"]},
-      {"type":"LinkedIn", "text": ["linkedin.com/in/adamstortz/"]},
-      {"type":"GitHub", "text": ["github.com/adamstortz"]}
-    ],
-    "jobs": [
-      {
-        "employer": {
-          "name": "Redstone Content Solutions",
-          "website": "https://www.redstonecontentsolutions.com/",
-          "logo": "assets/logos/redstone.png"
-        },
-        "description": "lorem ipsom",
-        "title": "Solution Architect",
-        "start": "20110415"
+  "name": "Adam Stortz",
+  "title": "Cloud Solution Architect",
+  "summary": "Ace problem solver",
+  "avatar": {
+    "imageUri": "assets/headshot.jpg",
+    "altText": "Adam Stortz"
+  },
+  "contacts": [
+    { "type": "Phone", "text": ["3097149981"] },
+    { "type": "Email", "text": ["adam.stortz@live.com"] },
+    { "type": "Home", "text": ["879 Rustic View Ct.", "Eldridge, IA 52748"] },
+    { "type": "LinkedIn", "text": ["linkedin.com/in/adamstortz/"] },
+    { "type": "GitHub", "text": ["github.com/adamstortz"] }
+  ],
+  "jobs": [
+    {
+      "employer": {
+        "name": "Redstone Content Solutions",
+        "website": "https://www.redstonecontentsolutions.com/",
+        "logo": "assets/logos/redstone.png"
       },
-      {
-        "employer": {
-          "name": "Stryker",
-          "website": "https://www.stryker.com/",
-          "logo": "assets/logos/stryker-square.png"
+      "description": "lorem ipsom",
+      "title": "Solution Architect",
+      "start": "20110415",
+      "projects": [
+        {
+          "title": "foo",
+          "description": "lorem ipsom projectlorem ipsom projectlorem ipsom projectlorem ipsom projectlorem ipsom projectlorem ipsom project",
+          "tech": ["react", "node"]
         },
-        "description": "lorem ipsom",
-        "title": "Sr. Technical Team Lead",
-        "start": "20040215",
-        "end": "20110415"
-      }
-    ]
-  }
+        {
+          "title": "foo",
+          "description": "lorem ipsom project",
+          "tech": ["react"]
+        },
+        {
+          "title": "foo",
+          "description": "lorem ipsom project",
+          "tech": ["react"]
+        }
+      ]
+    },
+    {
+      "employer": {
+        "name": "Stryker",
+        "website": "https://www.stryker.com/",
+        "logo": "assets/logos/stryker-square.png"
+      },
+      "description": "lorem ipsom",
+      "title": "Sr. Technical Team Lead",
+      "start": "20040215",
+      "end": "20110415",
+      "projects": [
+        {
+          "title": "foo",
+          "description": "lorem ipsom project",
+          "tech": ["react"]
+        },
+        {
+          "title": "foo",
+          "description": "lorem ipsom project",
+          "tech": ["react"]
+        },
+        {
+          "title": "foo",
+          "description": "lorem ipsom project",
+          "tech": ["react"]
+        }
+      ]
+    }
+  ],
+  "skills": [
+    { "name": "react", "rating": 5 },
+    { "name": "kubernetes", "rating": 5 },
+    { "name": "node", "rating": 3 }
+  ]
+}

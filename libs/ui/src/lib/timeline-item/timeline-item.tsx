@@ -3,10 +3,9 @@ import moment from 'moment';
 import { isNil, evolve, pipe } from 'ramda';
 import './timeline-item.scss';
 
-/* eslint-disable-next-line */
 export interface TimelineItemProps {
   start: moment.Moment,
-  end?: moment.Moment,
+  end?: string,
   children?: any,
 }
 
@@ -18,12 +17,15 @@ const prepProps = evolve({
 })
 
 export const TimelineItemComponent = (props: TimelineItemProps) => {
+  // console.log('a', props)
+  // console.log('b', prepProps(props))
   return (
     <div>
       <h1>{props.start} - {props.end}</h1>
-      {props.children}
+      {props.children}--
     </div>
   );
 };
-export const TimelineItem: React.FC<TimelineItemProps> = pipe(prepProps, TimelineItemComponent);
+// export const TimelineItem: React.FC<TimelineItemProps> = pipe(prepProps, TimelineItemComponent);
+export const TimelineItem: React.FC<TimelineItemProps> = TimelineItemComponent;
 export default TimelineItem;

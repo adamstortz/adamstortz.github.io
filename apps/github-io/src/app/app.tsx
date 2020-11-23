@@ -2,7 +2,11 @@ import React, { useState, useEffect } from 'react';
 
 import './app.scss';
 
-import { HeaderComponent, TimelineComponent } from './components';
+import {
+  HeaderComponent,
+  TimelineComponent,
+  SkillsComponent,
+} from './components';
 
 export const App = () => {
   const [data, setData]: [any, any] = useState();
@@ -21,6 +25,7 @@ export const App = () => {
     <>
       <HeaderComponent avatar={data.avatar} contactOptions={data.contacts} />
       <TimelineComponent timelineItems={data.jobs}></TimelineComponent>
+      <SkillsComponent skills={data.skills}></SkillsComponent>
     </>
   );
 };
