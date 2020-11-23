@@ -20,4 +20,7 @@ export const useHeaderStyles = makeStyles((theme) => ({
   noWrap: {
     whiteSpace: 'nowrap',
   },
+  headshot: {
+    width: '200px',
+  },
 }));

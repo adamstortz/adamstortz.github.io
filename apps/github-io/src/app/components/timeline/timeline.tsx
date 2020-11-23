@@ -41,7 +41,7 @@ export const TimelineComponent = (props) => {
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
-          <Paper elevation={1} className={classes.paper}>
+          <Paper elevation={0} className={classes.paper}>
             <Grid container spacing={1}>
               <Grid item xs>
                 <Typography variant="h6" component="h1">
@@ -71,7 +71,7 @@ export const TimelineComponent = (props) => {
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
-          <Paper elevation={1} className={classes.paper}>
+          <Paper className={classes.paper}>
             <Grid container spacing={1}>
               <Grid item xs>
                 <Typography variant="h6" component="h1">

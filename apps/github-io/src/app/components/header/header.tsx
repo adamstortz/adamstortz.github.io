@@ -1,7 +1,6 @@
 import React from 'react';
 import { LinkedIn, Email, Phone, GitHub, Home } from '@material-ui/icons';
 import {
-  Avatar,
   Box,
   List,
   ListItem,
@@ -9,7 +8,6 @@ import {
   ListItemText,
   Typography,
 } from '@material-ui/core';
-import { useTheme } from '@material-ui/core/styles';
 
 import { useHeaderStyles } from './header.styles';
 
@@ -22,7 +20,6 @@ export const HeaderComponent = ({
   title,
   summary,
 }) => {
-  // const theme = useTheme();
   const classes = useHeaderStyles({ withTheme: true });
   const classNames = (...classNamez) => classNamez.join(' ');
   const contacts = contactOptions.map((contactOption, optionIndex) => {
@@ -45,7 +42,11 @@ export const HeaderComponent = ({
   return (
     <div>
       <Box className={classNames(classes.horizontal, classes.root)} color="red">
-        <img alt={avatar.altText} src={avatar.imageUri} />
+        <img
+          className={classes.headshot}
+          alt={avatar.altText}
+          src={avatar.imageUri}
+        />
         <Box className={classes.box}>
           <Typography variant="h2">{name}</Typography>
           <Typography variant="subtitle1">{title}</Typography>

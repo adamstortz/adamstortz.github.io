@@ -8,5 +8,6 @@ export const useSkillsStyles = makeStyles({
       marginLeft: 'auto',
       paddingLeft: 16,
     },
+    width: '200px',
   },
 });
