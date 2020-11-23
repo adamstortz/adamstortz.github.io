@@ -1,51 +1,18 @@
-import React, { useState, useEffect } from 'react';
-import { isNil, map, pipe, toPairs } from 'ramda';
-import CssBaseline from '@material-ui/core/CssBaseline';
+import React from 'react';
 import moment from 'moment';
 
-import './timeline.scss';
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
-import { makeStyles, withStyles } from '@material-ui/core/styles';
+import { withStyles } from '@material-ui/core/styles';
 import Timeline from '@material-ui/lab/Timeline';
 import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineSeparator from '@material-ui/lab/TimelineSeparator';
 import TimelineConnector from '@material-ui/lab/TimelineConnector';
 import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineDot from '@material-ui/lab/TimelineDot';
-import FastfoodIcon from '@material-ui/icons/Fastfood';
-import LaptopMacIcon from '@material-ui/icons/LaptopMac';
-import HotelIcon from '@material-ui/icons/Hotel';
-import RepeatIcon from '@material-ui/icons/Repeat';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 
-const useStyles = makeStyles((theme) => ({
-  paper: {
-    padding: '6px 16px',
-  },
-  secondaryTail: {
-    backgroundColor: theme.palette.primary.main,
-  },
-  transparentTail: {
-    backgroundColor: 'transparent',
-  },
-  noOpposite: {
-    flex: 'none',
-  },
-  logoDot: {
-    width: '24px',
-    height: '24px',
-  },
-  emptyDotSeperator: {
-    minWidth: '36px',
-  },
-  emptyDot: {
-    marginLeft: '12px',
-  },
-}));
+import { useTimelineStyles } from './timeline.styles';
 
 const StyledTimelineItem = withStyles({
   missingOppositeContent: {
@@ -60,7 +27,7 @@ const formatDate = (date) =>
   date ? moment(date).format('YYYY-MM-DD') : 'Present';
 
 export const TimelineComponent = (props) => {
-  const classes = useStyles();
+  const classes = useTimelineStyles();
   const timelineItems = props.timelineItems.map((timelineItem, index) => {
     const employerNode = (
       <StyledTimelineItem>
@@ -69,7 +36,7 @@ export const TimelineComponent = (props) => {
             className={index > 0 ? '' : classes.transparentTail}
           />
           <TimelineDot className={classes.logoDot} variant="outlined">
-            <img src={timelineItem.employer.logo} />
+            <img className={classes.logo} src={timelineItem.employer.logo} />
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
