@@ -15,6 +15,7 @@ export const SkillsComponent = ({ skills }) => {
         value={skill.rating}
         readOnly={true}
         icon={<WhatshotIcon fontSize="inherit" />}
+        max={skill.rating < 5 ? 5 : skill.rating}
       />
     </div>
   ));

@@ -48,25 +48,23 @@ export const TimelineComponent = (props) => {
           <TimelineConnector className={classes.primaryTail} />
         </TimelineSeparator>
         <TimelineContent>
-          <Paper elevation={0} className={classes.paper}>
-            <Grid container spacing={1}>
-              <Grid item xs>
-                <Typography variant="h6" component="h1">
-                  {timelineItem.employer.name}
-                </Typography>
-              </Grid>
-              <Grid item xs={4}>
-                <Typography variant="body2" color="textSecondary" align="right">
-                  {formatDate(timelineItem.start)} -{' '}
-                  {formatDate(timelineItem.end)}
-                </Typography>
-              </Grid>
+          <Grid container spacing={1}>
+            <Grid item xs>
+              <Typography variant="h6" component="h1">
+                {timelineItem.employer.name}
+              </Typography>
             </Grid>
-            <Typography variant="subtitle2" color="textSecondary">
-              {timelineItem.title}
-            </Typography>
-            <Typography variant="body1">{timelineItem.description}</Typography>
-          </Paper>
+            <Grid item xs={4}>
+              <Typography variant="body2" color="textSecondary" align="right">
+                {formatDate(timelineItem.start)} -{' '}
+                {formatDate(timelineItem.end)}
+              </Typography>
+            </Grid>
+          </Grid>
+          <Typography variant="subtitle2" color="textSecondary">
+            {timelineItem.title}
+          </Typography>
+          <Typography variant="body1">{timelineItem.description}</Typography>
         </TimelineContent>
       </StyledTimelineItem>
     );
@@ -80,21 +78,19 @@ export const TimelineComponent = (props) => {
           <TimelineConnector className={classes.primaryTail} />
         </TimelineSeparator>
         <TimelineContent>
-          <Paper className={classes.paper}>
-            <Grid container spacing={1}>
-              <Grid item xs>
-                <Typography variant="h6" component="h1">
-                  {project.title}
-                </Typography>
-              </Grid>
-              <Grid item xs={4}>
-                <Typography variant="body2" color="textSecondary" align="right">
-                  {project.tech.join(', ')}
-                </Typography>
-              </Grid>
+          <Grid container spacing={1}>
+            <Grid item xs>
+              <Typography variant="h6" component="h1">
+                {project.title}
+              </Typography>
             </Grid>
-            <Typography variant="body1">{project.description}</Typography>
-          </Paper>
+            <Grid item xs={5}>
+              <Typography variant="body2" color="textSecondary" align="right">
+                {project.tech.join(', ')}
+              </Typography>
+            </Grid>
+          </Grid>
+          <Typography variant="body1">{project.description}</Typography>
         </TimelineContent>
       </StyledTimelineItem>
     ));
@@ -106,7 +102,11 @@ export const TimelineComponent = (props) => {
     );
   });
 
-  return <Timeline align="left">{timelineItems}</Timeline>;
+  return (
+    <Timeline align="left" style="">
+      {timelineItems}
+    </Timeline>
+  );
 };
 
 export default TimelineComponent;

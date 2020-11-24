@@ -32,33 +32,28 @@
         "website": "https://www.redstonecontentsolutions.com/",
         "logo": "assets/logos/redstone.png"
       },
-      "description": "Provided technical and architectural direction to staff.",
+      "description": "Provided technical and architectural direction to staff and clients.",
       "title": "Solution Architect",
       "start": "20110415",
       "projects": [
         {
           "title": "Anthem",
-          "description": "Lead implementation team in effort to migrate existing on-prem VM based infrastructure consisting of more than 120 micro-services built with Spring, Zuul, and Eureka to OpenShift in AWS.  This accomplished using Helm to standardize Kubernetes resource descriptors, the pipeline was migrated from Bamboo to tekton and delivery was managed through ArgoCD.",
+          "description": "Lead implementation in migration of existing on-prem VM based infrastructure consisting of more than 120 micro-services built with Spring, Zuul, and Eureka to OpenShift in AWS.  This was accomplished using Helm to standardize Kubernetes resource descriptors, the pipeline was migrated from Bamboo to tekton, and delivery was managed through ArgoCD.",
           "tech": ["Helm", "Python", "Kubernetes", "OpenShift", "ArgoCD"]
         },
         {
           "title": "SOW Builder",
-          "description": "Architected and built a tool to support collaborative, real-time SOW development and estimating.",
+          "description": "Architected and built a tool to support collaborative, real-time SOW development and estimation.",
           "tech": ["Angular", "NodeJS", "Firebase"]
-        },
-        {
-          "title": "Content Synergy Hub",
-          "description": "Designed and built a distributed, event driven, dynamic file processing engine for injesting files from various locations and source systems into Oracle WebCenter Content.",
-          "tech": ["Angular", "Grails", "Groovy"]
         },
         {
           "title": "Oracle Content & Experience Cloud, Docusign integration",
-          "description": "Designed and built a two-way integration between Oracle Content & Experience Cloud (OCE) and Docusign for sending documents in OCE to Docusign for signature and storing the final document with all collected signatures back in OCE.",
+          "description": "Designed and built a two-way integration between Oracle Content & Experience Cloud (OCE) and Docusign for sending documents in OCE to Docusign for signatures and storing the final document with all collected signatures back in OCE.",
           "tech": ["Angular", "NodeJS", "Firebase"]
         },
         {
-          "title": "Standardized Build internal CI/CD",
-          "description": "Built Gradle plugins to standardize build processes across various technologies.  Centralized secret management for build pipeline.",
+          "title": "Standardized Internal CI/CD",
+          "description": "Built Gradle plugins to standardize build processes across various technologies.  Centralized secret management for build pipeline. Implemented standards around pipelines to streamline management.",
           "tech": ["Artifactory", "Gradle", "TeamCity", "GitHub Actions"]
         },
         {
@@ -68,18 +63,8 @@
         },
         {
           "title": "Report Automation",
-          "description": "Built automated scheduled reports of company billable resource utilization running in Oracle Cloud using fn Project.",
+          "description": "Built automated, scheduled reports of company billable resource utilization running in Oracle Cloud using fn Project.",
           "tech": ["fn Project", "Oracle Functions"]
-        },
-        {
-          "title": "Training",
-          "description": "Built and delivered internal and external customized training classes ranging from a couple hours to 5 days.",
-          "tech": ["Git", "Gulp", "Gradle", "Cypress"]
-        },
-        {
-          "title": "Employee Development",
-          "description": "Trained and mentored junior staff members.",
-          "tech": [""]
         }
       ]
     },
@@ -95,13 +80,13 @@
       "end": "20110415",
       "projects": [
         {
-          "title": "Sr. Technical Team Lead - Corporate Web Applications",
-          "description": "Headed up the technical arm of a global team of Web Developers primarily focused on Enterprise Sharepoint implmentation.",
+          "title": "Tech Lead - Corporate Web Apps",
+          "description": "Headed up the technical arm of a team of web developers primarily focused on SharePoint.",
           "tech": ["SharePoint", "C#"]
         },
         {
-          "title": "Sr. Technical Team Lead - Corporate Business Intelligence",
-          "description": "Lead corporate initiative to migrated from a legacy Business Intelligence solution to the Microsoft BI stack",
+          "title": "Tech Lead - Corporate BI",
+          "description": "Lead corporate initiative to migrated from a legacy Business Intelligence solution to the Microsoft BI stack.",
           "tech": ["PerformancePoint", "SSRS", "SSIS", "SSAS"]
         },
         {
@@ -113,6 +98,8 @@
     }
   ],
   "skills": [
+    { "name": "Problem Solving", "rating": 7 },
+    { "name": "Communication", "rating": 5 },
     { "name": "Kubernetes", "rating": 4 },
     { "name": "OpenShift", "rating": 4 },
     { "name": "Docker", "rating": 5 },
@@ -122,13 +109,13 @@
     { "name": "React", "rating": 4 },
     { "name": "Angular", "rating": 4 },
     { "name": "NodeJS", "rating": 5 },
-    { "name": "JavaScript", "rating": 3 },
+    { "name": "JavaScript", "rating": 5 },
+    { "name": "Cypress", "rating": 4 },
     { "name": "Java", "rating": 5 },
-    { "name": "Spring", "rating": 3 },
     { "name": "C#", "rating": 3 },
     { "name": "Python", "rating": 4 },
+    { "name": "Spring", "rating": 3 },
     { "name": "Gradle", "rating": 4 },
-    { "name": "Git", "rating": 4 },
-    { "name": "Cypress", "rating": 4 }
+    { "name": "Git", "rating": 4 }
   ]
 }
