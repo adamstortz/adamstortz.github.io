@@ -102,11 +102,7 @@ export const TimelineComponent = (props) => {
     );
   });
 
-  return (
-    <Timeline align="left" style="">
-      {timelineItems}
-    </Timeline>
-  );
+  return <Timeline align="left">{timelineItems}</Timeline>;
 };
 
 export default TimelineComponent;
