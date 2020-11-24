@@ -53,7 +53,9 @@ export const HeaderComponent = ({
   });
   return (
     <div>
-      <Box className={classNames(classes.horizontal, classes.root)} color="red">
+      <Box
+        className={classNames(classes.horizontal, classes.root, classes.row1)}
+      >
         <img
           className={classes.headshot}
           alt={avatar.altText}

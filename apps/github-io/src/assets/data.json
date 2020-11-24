@@ -7,7 +7,7 @@
     "altText": "Adam Stortz"
   },
   "contacts": [
-    { "type": "Phone", "text": ["3097149981"] },
+    { "type": "Phone", "text": ["309.714.9981"], "link": "tel:1-309-714-9981" },
     {
       "type": "Email",
       "text": ["adam.stortz@live.com"],
@@ -32,24 +32,54 @@
         "website": "https://www.redstonecontentsolutions.com/",
         "logo": "assets/logos/redstone.png"
       },
-      "description": "lorem ipsom",
+      "description": "Provided technical and architectural direction to staff.",
       "title": "Solution Architect",
       "start": "20110415",
       "projects": [
         {
-          "title": "foo",
-          "description": "lorem ipsom projectlorem ipsom projectlorem ipsom projectlorem ipsom projectlorem ipsom projectlorem ipsom project",
-          "tech": ["react", "node"]
+          "title": "Anthem",
+          "description": "Lead implementation team in effort to migrate existing on-prem VM based infrastructure consisting of more than 120 micro-services built with Spring, Zuul, and Eureka to OpenShift in AWS.  This accomplished using Helm to standardize Kubernetes resource descriptors, the pipeline was migrated from Bamboo to tekton and delivery was managed through ArgoCD.",
+          "tech": ["Helm", "Python", "Kubernetes", "OpenShift", "ArgoCD"]
         },
         {
-          "title": "foo",
-          "description": "lorem ipsom project",
-          "tech": ["react"]
+          "title": "SOW Builder",
+          "description": "Architected and built a tool to support collaborative, real-time SOW development and estimating.",
+          "tech": ["Angular", "NodeJS", "Firebase"]
         },
         {
-          "title": "foo",
-          "description": "lorem ipsom project",
-          "tech": ["react"]
+          "title": "Content Synergy Hub",
+          "description": "Designed and built a distributed, event driven, dynamic file processing engine for injesting files from various locations and source systems into Oracle WebCenter Content.",
+          "tech": ["Angular", "Grails", "Groovy"]
+        },
+        {
+          "title": "Oracle Content & Experience Cloud, Docusign integration",
+          "description": "Designed and built a two-way integration between Oracle Content & Experience Cloud (OCE) and Docusign for sending documents in OCE to Docusign for signature and storing the final document with all collected signatures back in OCE.",
+          "tech": ["Angular", "NodeJS", "Firebase"]
+        },
+        {
+          "title": "Standardized Build internal CI/CD",
+          "description": "Built Gradle plugins to standardize build processes across various technologies.  Centralized secret management for build pipeline.",
+          "tech": ["Artifactory", "Gradle", "TeamCity", "GitHub Actions"]
+        },
+        {
+          "title": "Hiera Markdown Generator",
+          "description": "Designed and built an extension for Hiera and Puppet to generate markdown documentation based on desired system state.",
+          "tech": ["Hiera", "Puppet"]
+        },
+        {
+          "title": "Report Automation",
+          "description": "Built automated scheduled reports of company billable resource utilization running in Oracle Cloud using fn Project.",
+          "tech": ["fn Project", "Oracle Functions"]
+        },
+        {
+          "title": "Training",
+          "description": "Built and delivered internal and external customized training classes ranging from a couple hours to 5 days.",
+          "tech": ["Git", "Gulp", "Gradle", "Cypress"]
+        },
+        {
+          "title": "Employee Development",
+          "description": "Trained and mentored junior staff members.",
+          "tech": [""]
         }
       ]
     },
@@ -59,33 +89,46 @@
         "website": "https://www.stryker.com/",
         "logo": "assets/logos/Stryker-transparent.png"
       },
-      "description": "lorem ipsom",
+      "description": "I started my career at Stryker straight out of college as 'the helpdesk guy' at a small division and worked my way up until I was the technical lead of Corporate Web Applications",
       "title": "Sr. Technical Team Lead",
       "start": "20040215",
       "end": "20110415",
       "projects": [
         {
-          "title": "foo",
-          "description": "lorem ipsom project",
-          "tech": ["react"]
+          "title": "Sr. Technical Team Lead - Corporate Web Applications",
+          "description": "Headed up the technical arm of a global team of Web Developers primarily focused on Enterprise Sharepoint implmentation.",
+          "tech": ["SharePoint", "C#"]
         },
         {
-          "title": "foo",
-          "description": "lorem ipsom project",
-          "tech": ["react"]
+          "title": "Sr. Technical Team Lead - Corporate Business Intelligence",
+          "description": "Lead corporate initiative to migrated from a legacy Business Intelligence solution to the Microsoft BI stack",
+          "tech": ["PerformancePoint", "SSRS", "SSIS", "SSAS"]
         },
         {
-          "title": "foo",
-          "description": "lorem ipsom project",
-          "tech": ["react"]
+          "title": "Web Developer",
+          "description": "Divisional technical lead for web application development.  Provided technical/architectural direction to junior developers and established standards and process automation for software delivery.",
+          "tech": ["JBoss", "Java", "Spring", "C#", "SharePoint"]
         }
       ]
     }
   ],
   "skills": [
+    { "name": "Kubernetes", "rating": 4 },
+    { "name": "OpenShift", "rating": 4 },
+    { "name": "Docker", "rating": 5 },
+    { "name": "Helm", "rating": 5 },
+    { "name": "Tekton", "rating": 3 },
+    { "name": "Firebase", "rating": 3 },
     { "name": "React", "rating": 4 },
     { "name": "Angular", "rating": 4 },
-    { "name": "kubernetes", "rating": 4 },
-    { "name": "node", "rating": 3 }
+    { "name": "NodeJS", "rating": 5 },
+    { "name": "JavaScript", "rating": 3 },
+    { "name": "Java", "rating": 5 },
+    { "name": "Spring", "rating": 3 },
+    { "name": "C#", "rating": 3 },
+    { "name": "Python", "rating": 4 },
+    { "name": "Gradle", "rating": 4 },
+    { "name": "Git", "rating": 4 },
+    { "name": "Cypress", "rating": 4 }
   ]
 }

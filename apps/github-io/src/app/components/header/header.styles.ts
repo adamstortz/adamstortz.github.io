@@ -35,6 +35,9 @@ export const useHeaderStyles = makeStyles((theme) => ({
   headshot: {
     width: theme.common.sidebarWidth,
   },
+  row1: {
+    height: theme.common.sidebarWidth,
+  },
   name: {
     fontSize: theme.typography.h3.fontSize,
     textTransform: 'uppercase',
