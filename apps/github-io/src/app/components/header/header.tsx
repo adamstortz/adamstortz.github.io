@@ -2,6 +2,7 @@ import React from 'react';
 import { LinkedIn, Email, Phone, GitHub, Home } from '@material-ui/icons';
 import {
   Box,
+  Link,
   List,
   ListItem,
   ListItemAvatar,
@@ -25,14 +26,25 @@ export const HeaderComponent = ({
   const contacts = contactOptions.map((contactOption, optionIndex) => {
     const contactKey = `contact-${optionIndex}`;
     const Icon = icons[contactOption.type];
-    const itemText = contactOption.text.map((text, textIndex) => (
-      <div className={classes.noWrap} key={`${contactKey}-text-${textIndex}`}>
-        {text}
-      </div>
-    ));
+    const itemText = contactOption.link ? (
+      <Link
+        className={classes.link}
+        underline="always"
+        target="_blank"
+        href={contactOption.link}
+      >
+        {contactOption.text[0]}
+      </Link>
+    ) : (
+      contactOption.text.map((text, textIndex) => (
+        <div className={classes.noWrap} key={`${contactKey}-text-${textIndex}`}>
+          {text}
+        </div>
+      ))
+    );
     return (
       <ListItem key={contactKey}>
-        <ListItemAvatar>
+        <ListItemAvatar className={classes.contactAvatar}>
           <Icon />
         </ListItemAvatar>
         <ListItemText>{itemText}</ListItemText>
@@ -47,12 +59,18 @@ export const HeaderComponent = ({
           alt={avatar.altText}
           src={avatar.imageUri}
         />
-        <Box className={classes.box}>
-          <Typography variant="h2">{name}</Typography>
-          <Typography variant="body1">{title}</Typography>
+        <Box className={classNames(classes.box)}>
+          <Typography variant="h2" className={classes.name}>
+            {name}
+          </Typography>
+          <Typography variant="overline" className={classes.title}>
+            {title}
+          </Typography>
         </Box>
-        <Box className={classes.box}>
-          <Typography variant="overline">{summary}</Typography>
+        <Box className={classNames(classes.box, 'summary')}>
+          <Typography variant="body1" className={classes.summary}>
+            {summary}
+          </Typography>
         </Box>
       </Box>
       <List

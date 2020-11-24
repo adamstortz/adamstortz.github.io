@@ -23,6 +23,8 @@ const StyledTimelineItem = withStyles({
   },
 })(TimelineItem);
 
+const classNames = (...classNamez) => classNamez.join(' ');
+
 const formatDate = (date) =>
   date ? moment(date).format('YYYY-MM-DD') : 'Present';
 
@@ -33,12 +35,17 @@ export const TimelineComponent = (props) => {
       <StyledTimelineItem>
         <TimelineSeparator>
           <TimelineConnector
-            className={index > 0 ? '' : classes.transparentTail}
+            className={
+              index > 0 ? classes.primaryTail : classes.transparentTail
+            }
           />
-          <TimelineDot className={classes.logoDot} variant="outlined">
+          <TimelineDot
+            className={classNames(classes.logoDot, classes.primaryDot)}
+            variant="outlined"
+          >
             <img className={classes.logo} src={timelineItem.employer.logo} />
           </TimelineDot>
-          <TimelineConnector />
+          <TimelineConnector className={classes.primaryTail} />
         </TimelineSeparator>
         <TimelineContent>
           <Paper elevation={0} className={classes.paper}>
@@ -66,9 +73,11 @@ export const TimelineComponent = (props) => {
     const projectNodes = timelineItem.projects.map((project, projectIndex) => (
       <StyledTimelineItem key={`timelineItem-${index}-project-${projectIndex}`}>
         <TimelineSeparator className={classes.emptyDotSeperator}>
-          <TimelineConnector />
-          <TimelineDot className={classes.emptyDot}></TimelineDot>
-          <TimelineConnector />
+          <TimelineConnector className={classes.primaryTail} />
+          <TimelineDot
+            className={classNames(classes.emptyDot, classes.primaryTail)}
+          ></TimelineDot>
+          <TimelineConnector className={classes.primaryTail} />
         </TimelineSeparator>
         <TimelineContent>
           <Paper className={classes.paper}>

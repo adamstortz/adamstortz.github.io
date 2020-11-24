@@ -9,4 +9,10 @@ export const useAppStyles = makeStyles((theme) => ({
   box: {
     paddingLeft: '30px',
   },
+  fab: {
+    position: 'fixed',
+    bottom: theme.spacing(2),
+    right: theme.spacing(2),
+    '&@media print': { dispay: 'none' },
+  },
 }));

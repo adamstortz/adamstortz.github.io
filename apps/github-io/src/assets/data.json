@@ -1,17 +1,29 @@
 {
   "name": "Adam Stortz",
   "title": "Cloud Solution Architect",
-  "summary": "Ace problem solver",
+  "summary": "Experienced Solution Architect with broad technical expertise, exceptional problem solving, and a passion for automation.",
   "avatar": {
-    "imageUri": "assets/headshot.jpg",
+    "imageUri": "assets/headshot.png",
     "altText": "Adam Stortz"
   },
   "contacts": [
     { "type": "Phone", "text": ["3097149981"] },
-    { "type": "Email", "text": ["adam.stortz@live.com"] },
+    {
+      "type": "Email",
+      "text": ["adam.stortz@live.com"],
+      "link": "mailto:adam.stortz@live.com"
+    },
     { "type": "Home", "text": ["879 Rustic View Ct.", "Eldridge, IA 52748"] },
-    { "type": "LinkedIn", "text": ["linkedin.com/in/adamstortz/"] },
-    { "type": "GitHub", "text": ["github.com/adamstortz"] }
+    {
+      "type": "LinkedIn",
+      "text": ["linkedin.com/in/adamstortz/"],
+      "link": "https://linkedin.com/in/adamstortz/"
+    },
+    {
+      "type": "GitHub",
+      "text": ["github.com/adamstortz"],
+      "link": "https://github.com/adamstortz"
+    }
   ],
   "jobs": [
     {
@@ -45,7 +57,7 @@
       "employer": {
         "name": "Stryker",
         "website": "https://www.stryker.com/",
-        "logo": "assets/logos/stryker-square.png"
+        "logo": "assets/logos/Stryker-transparent.png"
       },
       "description": "lorem ipsom",
       "title": "Sr. Technical Team Lead",
@@ -71,8 +83,9 @@
     }
   ],
   "skills": [
-    { "name": "react", "rating": 5 },
-    { "name": "kubernetes", "rating": 5 },
+    { "name": "React", "rating": 4 },
+    { "name": "Angular", "rating": 4 },
+    { "name": "kubernetes", "rating": 4 },
     { "name": "node", "rating": 3 }
   ]
 }

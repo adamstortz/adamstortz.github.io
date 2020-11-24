@@ -1,22 +1,22 @@
 import React from 'react';
 
-import { Box, List, ListItem, Typography } from '@material-ui/core';
+import { Box, Typography } from '@material-ui/core';
 import Rating from '@material-ui/lab/Rating';
 
-import StarBorderIcon from '@material-ui/icons/StarBorder';
+import WhatshotIcon from '@material-ui/icons/WhatshotRounded';
 import { useSkillsStyles } from './skills.styles';
 
 export const SkillsComponent = ({ skills }) => {
   const classes = useSkillsStyles();
   const skillz = skills.map((skill, index) => (
-    <>
+    <div key={`skill-${index}`}>
       <Typography component="legend">{skill.name}</Typography>
       <Rating
         value={skill.rating}
         readOnly={true}
-        emptyIcon={<StarBorderIcon fontSize="inherit" />}
+        icon={<WhatshotIcon fontSize="inherit" />}
       />
-    </>
+    </div>
   ));
   return (
     <Box className={classes.root}>

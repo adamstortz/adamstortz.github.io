@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
+import { display } from '@material-ui/system';
 
 import { createMuiTheme } from '@material-ui/core/styles';
-import purple from '@material-ui/core/colors/purple';
-import green from '@material-ui/core/colors/green';
 import { ThemeProvider } from '@material-ui/core/styles';
+
+import { CloudDownload } from '@material-ui/icons';
 
 import { useAppStyles } from './app.styles';
 
@@ -12,9 +13,7 @@ import {
   TimelineComponent,
   SkillsComponent,
 } from './components';
-import { Box } from '@material-ui/core';
-
-import { orange } from '@material-ui/core/colors';
+import { Box, Fab } from '@material-ui/core';
 
 declare module '@material-ui/core/styles/createMuiTheme' {
   interface Theme {
@@ -35,12 +34,15 @@ const theme = createMuiTheme({
     sidebarWidth: '200px',
   },
   palette: {
-    // primary: {
-    //   main: purple[500],
-    // },
-    // secondary: {
-    //   main: green[500],
-    // },
+    primary: {
+      main: '#c5bfb3',
+    },
+    secondary: {
+      main: '#515a77',
+    },
+  },
+  typography: {
+    fontFamily: "'Fira Code', monospace",
   },
 });
 
@@ -72,6 +74,17 @@ export const App = () => {
         <Box className={classNames(classes.horizontal)}>
           <SkillsComponent skills={data.skills}></SkillsComponent>
           <TimelineComponent timelineItems={data.jobs}></TimelineComponent>
+        </Box>
+        <Box display="block" displayPrint="none" className={classes.fab}>
+          <Fab
+            color="secondary"
+            size="small"
+            href="assets/Adam Stortz.pdf"
+            aria-label="Download"
+            target="_blank"
+          >
+            <CloudDownload />
+          </Fab>
         </Box>
       </ThemeProvider>
     </>

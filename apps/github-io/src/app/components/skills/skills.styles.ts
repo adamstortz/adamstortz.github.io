@@ -9,5 +9,6 @@ export const useSkillsStyles = makeStyles((theme) => ({
       paddingLeft: 16,
     },
     width: theme.common.sidebarWidth,
+    paddingLeft: '10px',
   },
 }));
