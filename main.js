@@ -1,5 +1,340 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
 
+/***/ "../../../node_modules/moment/locale sync recursive ^\\.\\/.*$":
+/*!************************************************************************************************************!*\
+  !*** /home/runner/work/adamstortz.github.io/adamstortz.github.io/node_modules/moment/locale sync ^\.\/.*$ ***!
+  \************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./af": "../../../node_modules/moment/locale/af.js",
+	"./af.js": "../../../node_modules/moment/locale/af.js",
+	"./ar": "../../../node_modules/moment/locale/ar.js",
+	"./ar-dz": "../../../node_modules/moment/locale/ar-dz.js",
+	"./ar-dz.js": "../../../node_modules/moment/locale/ar-dz.js",
+	"./ar-kw": "../../../node_modules/moment/locale/ar-kw.js",
+	"./ar-kw.js": "../../../node_modules/moment/locale/ar-kw.js",
+	"./ar-ly": "../../../node_modules/moment/locale/ar-ly.js",
+	"./ar-ly.js": "../../../node_modules/moment/locale/ar-ly.js",
+	"./ar-ma": "../../../node_modules/moment/locale/ar-ma.js",
+	"./ar-ma.js": "../../../node_modules/moment/locale/ar-ma.js",
+	"./ar-sa": "../../../node_modules/moment/locale/ar-sa.js",
+	"./ar-sa.js": "../../../node_modules/moment/locale/ar-sa.js",
+	"./ar-tn": "../../../node_modules/moment/locale/ar-tn.js",
+	"./ar-tn.js": "../../../node_modules/moment/locale/ar-tn.js",
+	"./ar.js": "../../../node_modules/moment/locale/ar.js",
+	"./az": "../../../node_modules/moment/locale/az.js",
+	"./az.js": "../../../node_modules/moment/locale/az.js",
+	"./be": "../../../node_modules/moment/locale/be.js",
+	"./be.js": "../../../node_modules/moment/locale/be.js",
+	"./bg": "../../../node_modules/moment/locale/bg.js",
+	"./bg.js": "../../../node_modules/moment/locale/bg.js",
+	"./bm": "../../../node_modules/moment/locale/bm.js",
+	"./bm.js": "../../../node_modules/moment/locale/bm.js",
+	"./bn": "../../../node_modules/moment/locale/bn.js",
+	"./bn-bd": "../../../node_modules/moment/locale/bn-bd.js",
+	"./bn-bd.js": "../../../node_modules/moment/locale/bn-bd.js",
+	"./bn.js": "../../../node_modules/moment/locale/bn.js",
+	"./bo": "../../../node_modules/moment/locale/bo.js",
+	"./bo.js": "../../../node_modules/moment/locale/bo.js",
+	"./br": "../../../node_modules/moment/locale/br.js",
+	"./br.js": "../../../node_modules/moment/locale/br.js",
+	"./bs": "../../../node_modules/moment/locale/bs.js",
+	"./bs.js": "../../../node_modules/moment/locale/bs.js",
+	"./ca": "../../../node_modules/moment/locale/ca.js",
+	"./ca.js": "../../../node_modules/moment/locale/ca.js",
+	"./cs": "../../../node_modules/moment/locale/cs.js",
+	"./cs.js": "../../../node_modules/moment/locale/cs.js",
+	"./cv": "../../../node_modules/moment/locale/cv.js",
+	"./cv.js": "../../../node_modules/moment/locale/cv.js",
+	"./cy": "../../../node_modules/moment/locale/cy.js",
+	"./cy.js": "../../../node_modules/moment/locale/cy.js",
+	"./da": "../../../node_modules/moment/locale/da.js",
+	"./da.js": "../../../node_modules/moment/locale/da.js",
+	"./de": "../../../node_modules/moment/locale/de.js",
+	"./de-at": "../../../node_modules/moment/locale/de-at.js",
+	"./de-at.js": "../../../node_modules/moment/locale/de-at.js",
+	"./de-ch": "../../../node_modules/moment/locale/de-ch.js",
+	"./de-ch.js": "../../../node_modules/moment/locale/de-ch.js",
+	"./de.js": "../../../node_modules/moment/locale/de.js",
+	"./dv": "../../../node_modules/moment/locale/dv.js",
+	"./dv.js": "../../../node_modules/moment/locale/dv.js",
+	"./el": "../../../node_modules/moment/locale/el.js",
+	"./el.js": "../../../node_modules/moment/locale/el.js",
+	"./en-au": "../../../node_modules/moment/locale/en-au.js",
+	"./en-au.js": "../../../node_modules/moment/locale/en-au.js",
+	"./en-ca": "../../../node_modules/moment/locale/en-ca.js",
+	"./en-ca.js": "../../../node_modules/moment/locale/en-ca.js",
+	"./en-gb": "../../../node_modules/moment/locale/en-gb.js",
+	"./en-gb.js": "../../../node_modules/moment/locale/en-gb.js",
+	"./en-ie": "../../../node_modules/moment/locale/en-ie.js",
+	"./en-ie.js": "../../../node_modules/moment/locale/en-ie.js",
+	"./en-il": "../../../node_modules/moment/locale/en-il.js",
+	"./en-il.js": "../../../node_modules/moment/locale/en-il.js",
+	"./en-in": "../../../node_modules/moment/locale/en-in.js",
+	"./en-in.js": "../../../node_modules/moment/locale/en-in.js",
+	"./en-nz": "../../../node_modules/moment/locale/en-nz.js",
+	"./en-nz.js": "../../../node_modules/moment/locale/en-nz.js",
+	"./en-sg": "../../../node_modules/moment/locale/en-sg.js",
+	"./en-sg.js": "../../../node_modules/moment/locale/en-sg.js",
+	"./eo": "../../../node_modules/moment/locale/eo.js",
+	"./eo.js": "../../../node_modules/moment/locale/eo.js",
+	"./es": "../../../node_modules/moment/locale/es.js",
+	"./es-do": "../../../node_modules/moment/locale/es-do.js",
+	"./es-do.js": "../../../node_modules/moment/locale/es-do.js",
+	"./es-mx": "../../../node_modules/moment/locale/es-mx.js",
+	"./es-mx.js": "../../../node_modules/moment/locale/es-mx.js",
+	"./es-us": "../../../node_modules/moment/locale/es-us.js",
+	"./es-us.js": "../../../node_modules/moment/locale/es-us.js",
+	"./es.js": "../../../node_modules/moment/locale/es.js",
+	"./et": "../../../node_modules/moment/locale/et.js",
+	"./et.js": "../../../node_modules/moment/locale/et.js",
+	"./eu": "../../../node_modules/moment/locale/eu.js",
+	"./eu.js": "../../../node_modules/moment/locale/eu.js",
+	"./fa": "../../../node_modules/moment/locale/fa.js",
+	"./fa.js": "../../../node_modules/moment/locale/fa.js",
+	"./fi": "../../../node_modules/moment/locale/fi.js",
+	"./fi.js": "../../../node_modules/moment/locale/fi.js",
+	"./fil": "../../../node_modules/moment/locale/fil.js",
+	"./fil.js": "../../../node_modules/moment/locale/fil.js",
+	"./fo": "../../../node_modules/moment/locale/fo.js",
+	"./fo.js": "../../../node_modules/moment/locale/fo.js",
+	"./fr": "../../../node_modules/moment/locale/fr.js",
+	"./fr-ca": "../../../node_modules/moment/locale/fr-ca.js",
+	"./fr-ca.js": "../../../node_modules/moment/locale/fr-ca.js",
+	"./fr-ch": "../../../node_modules/moment/locale/fr-ch.js",
+	"./fr-ch.js": "../../../node_modules/moment/locale/fr-ch.js",
+	"./fr.js": "../../../node_modules/moment/locale/fr.js",
+	"./fy": "../../../node_modules/moment/locale/fy.js",
+	"./fy.js": "../../../node_modules/moment/locale/fy.js",
+	"./ga": "../../../node_modules/moment/locale/ga.js",
+	"./ga.js": "../../../node_modules/moment/locale/ga.js",
+	"./gd": "../../../node_modules/moment/locale/gd.js",
+	"./gd.js": "../../../node_modules/moment/locale/gd.js",
+	"./gl": "../../../node_modules/moment/locale/gl.js",
+	"./gl.js": "../../../node_modules/moment/locale/gl.js",
+	"./gom-deva": "../../../node_modules/moment/locale/gom-deva.js",
+	"./gom-deva.js": "../../../node_modules/moment/locale/gom-deva.js",
+	"./gom-latn": "../../../node_modules/moment/locale/gom-latn.js",
+	"./gom-latn.js": "../../../node_modules/moment/locale/gom-latn.js",
+	"./gu": "../../../node_modules/moment/locale/gu.js",
+	"./gu.js": "../../../node_modules/moment/locale/gu.js",
+	"./he": "../../../node_modules/moment/locale/he.js",
+	"./he.js": "../../../node_modules/moment/locale/he.js",
+	"./hi": "../../../node_modules/moment/locale/hi.js",
+	"./hi.js": "../../../node_modules/moment/locale/hi.js",
+	"./hr": "../../../node_modules/moment/locale/hr.js",
+	"./hr.js": "../../../node_modules/moment/locale/hr.js",
+	"./hu": "../../../node_modules/moment/locale/hu.js",
+	"./hu.js": "../../../node_modules/moment/locale/hu.js",
+	"./hy-am": "../../../node_modules/moment/locale/hy-am.js",
+	"./hy-am.js": "../../../node_modules/moment/locale/hy-am.js",
+	"./id": "../../../node_modules/moment/locale/id.js",
+	"./id.js": "../../../node_modules/moment/locale/id.js",
+	"./is": "../../../node_modules/moment/locale/is.js",
+	"./is.js": "../../../node_modules/moment/locale/is.js",
+	"./it": "../../../node_modules/moment/locale/it.js",
+	"./it-ch": "../../../node_modules/moment/locale/it-ch.js",
+	"./it-ch.js": "../../../node_modules/moment/locale/it-ch.js",
+	"./it.js": "../../../node_modules/moment/locale/it.js",
+	"./ja": "../../../node_modules/moment/locale/ja.js",
+	"./ja.js": "../../../node_modules/moment/locale/ja.js",
+	"./jv": "../../../node_modules/moment/locale/jv.js",
+	"./jv.js": "../../../node_modules/moment/locale/jv.js",
+	"./ka": "../../../node_modules/moment/locale/ka.js",
+	"./ka.js": "../../../node_modules/moment/locale/ka.js",
+	"./kk": "../../../node_modules/moment/locale/kk.js",
+	"./kk.js": "../../../node_modules/moment/locale/kk.js",
+	"./km": "../../../node_modules/moment/locale/km.js",
+	"./km.js": "../../../node_modules/moment/locale/km.js",
+	"./kn": "../../../node_modules/moment/locale/kn.js",
+	"./kn.js": "../../../node_modules/moment/locale/kn.js",
+	"./ko": "../../../node_modules/moment/locale/ko.js",
+	"./ko.js": "../../../node_modules/moment/locale/ko.js",
+	"./ku": "../../../node_modules/moment/locale/ku.js",
+	"./ku.js": "../../../node_modules/moment/locale/ku.js",
+	"./ky": "../../../node_modules/moment/locale/ky.js",
+	"./ky.js": "../../../node_modules/moment/locale/ky.js",
+	"./lb": "../../../node_modules/moment/locale/lb.js",
+	"./lb.js": "../../../node_modules/moment/locale/lb.js",
+	"./lo": "../../../node_modules/moment/locale/lo.js",
+	"./lo.js": "../../../node_modules/moment/locale/lo.js",
+	"./lt": "../../../node_modules/moment/locale/lt.js",
+	"./lt.js": "../../../node_modules/moment/locale/lt.js",
+	"./lv": "../../../node_modules/moment/locale/lv.js",
+	"./lv.js": "../../../node_modules/moment/locale/lv.js",
+	"./me": "../../../node_modules/moment/locale/me.js",
+	"./me.js": "../../../node_modules/moment/locale/me.js",
+	"./mi": "../../../node_modules/moment/locale/mi.js",
+	"./mi.js": "../../../node_modules/moment/locale/mi.js",
+	"./mk": "../../../node_modules/moment/locale/mk.js",
+	"./mk.js": "../../../node_modules/moment/locale/mk.js",
+	"./ml": "../../../node_modules/moment/locale/ml.js",
+	"./ml.js": "../../../node_modules/moment/locale/ml.js",
+	"./mn": "../../../node_modules/moment/locale/mn.js",
+	"./mn.js": "../../../node_modules/moment/locale/mn.js",
+	"./mr": "../../../node_modules/moment/locale/mr.js",
+	"./mr.js": "../../../node_modules/moment/locale/mr.js",
+	"./ms": "../../../node_modules/moment/locale/ms.js",
+	"./ms-my": "../../../node_modules/moment/locale/ms-my.js",
+	"./ms-my.js": "../../../node_modules/moment/locale/ms-my.js",
+	"./ms.js": "../../../node_modules/moment/locale/ms.js",
+	"./mt": "../../../node_modules/moment/locale/mt.js",
+	"./mt.js": "../../../node_modules/moment/locale/mt.js",
+	"./my": "../../../node_modules/moment/locale/my.js",
+	"./my.js": "../../../node_modules/moment/locale/my.js",
+	"./nb": "../../../node_modules/moment/locale/nb.js",
+	"./nb.js": "../../../node_modules/moment/locale/nb.js",
+	"./ne": "../../../node_modules/moment/locale/ne.js",
+	"./ne.js": "../../../node_modules/moment/locale/ne.js",
+	"./nl": "../../../node_modules/moment/locale/nl.js",
+	"./nl-be": "../../../node_modules/moment/locale/nl-be.js",
+	"./nl-be.js": "../../../node_modules/moment/locale/nl-be.js",
+	"./nl.js": "../../../node_modules/moment/locale/nl.js",
+	"./nn": "../../../node_modules/moment/locale/nn.js",
+	"./nn.js": "../../../node_modules/moment/locale/nn.js",
+	"./oc-lnc": "../../../node_modules/moment/locale/oc-lnc.js",
+	"./oc-lnc.js": "../../../node_modules/moment/locale/oc-lnc.js",
+	"./pa-in": "../../../node_modules/moment/locale/pa-in.js",
+	"./pa-in.js": "../../../node_modules/moment/locale/pa-in.js",
+	"./pl": "../../../node_modules/moment/locale/pl.js",
+	"./pl.js": "../../../node_modules/moment/locale/pl.js",
+	"./pt": "../../../node_modules/moment/locale/pt.js",
+	"./pt-br": "../../../node_modules/moment/locale/pt-br.js",
+	"./pt-br.js": "../../../node_modules/moment/locale/pt-br.js",
+	"./pt.js": "../../../node_modules/moment/locale/pt.js",
+	"./ro": "../../../node_modules/moment/locale/ro.js",
+	"./ro.js": "../../../node_modules/moment/locale/ro.js",
+	"./ru": "../../../node_modules/moment/locale/ru.js",
+	"./ru.js": "../../../node_modules/moment/locale/ru.js",
+	"./sd": "../../../node_modules/moment/locale/sd.js",
+	"./sd.js": "../../../node_modules/moment/locale/sd.js",
+	"./se": "../../../node_modules/moment/locale/se.js",
+	"./se.js": "../../../node_modules/moment/locale/se.js",
+	"./si": "../../../node_modules/moment/locale/si.js",
+	"./si.js": "../../../node_modules/moment/locale/si.js",
+	"./sk": "../../../node_modules/moment/locale/sk.js",
+	"./sk.js": "../../../node_modules/moment/locale/sk.js",
+	"./sl": "../../../node_modules/moment/locale/sl.js",
+	"./sl.js": "../../../node_modules/moment/locale/sl.js",
+	"./sq": "../../../node_modules/moment/locale/sq.js",
+	"./sq.js": "../../../node_modules/moment/locale/sq.js",
+	"./sr": "../../../node_modules/moment/locale/sr.js",
+	"./sr-cyrl": "../../../node_modules/moment/locale/sr-cyrl.js",
+	"./sr-cyrl.js": "../../../node_modules/moment/locale/sr-cyrl.js",
+	"./sr.js": "../../../node_modules/moment/locale/sr.js",
+	"./ss": "../../../node_modules/moment/locale/ss.js",
+	"./ss.js": "../../../node_modules/moment/locale/ss.js",
+	"./sv": "../../../node_modules/moment/locale/sv.js",
+	"./sv.js": "../../../node_modules/moment/locale/sv.js",
+	"./sw": "../../../node_modules/moment/locale/sw.js",
+	"./sw.js": "../../../node_modules/moment/locale/sw.js",
+	"./ta": "../../../node_modules/moment/locale/ta.js",
+	"./ta.js": "../../../node_modules/moment/locale/ta.js",
+	"./te": "../../../node_modules/moment/locale/te.js",
+	"./te.js": "../../../node_modules/moment/locale/te.js",
+	"./tet": "../../../node_modules/moment/locale/tet.js",
+	"./tet.js": "../../../node_modules/moment/locale/tet.js",
+	"./tg": "../../../node_modules/moment/locale/tg.js",
+	"./tg.js": "../../../node_modules/moment/locale/tg.js",
+	"./th": "../../../node_modules/moment/locale/th.js",
+	"./th.js": "../../../node_modules/moment/locale/th.js",
+	"./tk": "../../../node_modules/moment/locale/tk.js",
+	"./tk.js": "../../../node_modules/moment/locale/tk.js",
+	"./tl-ph": "../../../node_modules/moment/locale/tl-ph.js",
+	"./tl-ph.js": "../../../node_modules/moment/locale/tl-ph.js",
+	"./tlh": "../../../node_modules/moment/locale/tlh.js",
+	"./tlh.js": "../../../node_modules/moment/locale/tlh.js",
+	"./tr": "../../../node_modules/moment/locale/tr.js",
+	"./tr.js": "../../../node_modules/moment/locale/tr.js",
+	"./tzl": "../../../node_modules/moment/locale/tzl.js",
+	"./tzl.js": "../../../node_modules/moment/locale/tzl.js",
+	"./tzm": "../../../node_modules/moment/locale/tzm.js",
+	"./tzm-latn": "../../../node_modules/moment/locale/tzm-latn.js",
+	"./tzm-latn.js": "../../../node_modules/moment/locale/tzm-latn.js",
+	"./tzm.js": "../../../node_modules/moment/locale/tzm.js",
+	"./ug-cn": "../../../node_modules/moment/locale/ug-cn.js",
+	"./ug-cn.js": "../../../node_modules/moment/locale/ug-cn.js",
+	"./uk": "../../../node_modules/moment/locale/uk.js",
+	"./uk.js": "../../../node_modules/moment/locale/uk.js",
+	"./ur": "../../../node_modules/moment/locale/ur.js",
+	"./ur.js": "../../../node_modules/moment/locale/ur.js",
+	"./uz": "../../../node_modules/moment/locale/uz.js",
+	"./uz-latn": "../../../node_modules/moment/locale/uz-latn.js",
+	"./uz-latn.js": "../../../node_modules/moment/locale/uz-latn.js",
+	"./uz.js": "../../../node_modules/moment/locale/uz.js",
+	"./vi": "../../../node_modules/moment/locale/vi.js",
+	"./vi.js": "../../../node_modules/moment/locale/vi.js",
+	"./x-pseudo": "../../../node_modules/moment/locale/x-pseudo.js",
+	"./x-pseudo.js": "../../../node_modules/moment/locale/x-pseudo.js",
+	"./yo": "../../../node_modules/moment/locale/yo.js",
+	"./yo.js": "../../../node_modules/moment/locale/yo.js",
+	"./zh-cn": "../../../node_modules/moment/locale/zh-cn.js",
+	"./zh-cn.js": "../../../node_modules/moment/locale/zh-cn.js",
+	"./zh-hk": "../../../node_modules/moment/locale/zh-hk.js",
+	"./zh-hk.js": "../../../node_modules/moment/locale/zh-hk.js",
+	"./zh-mo": "../../../node_modules/moment/locale/zh-mo.js",
+	"./zh-mo.js": "../../../node_modules/moment/locale/zh-mo.js",
+	"./zh-tw": "../../../node_modules/moment/locale/zh-tw.js",
+	"./zh-tw.js": "../../../node_modules/moment/locale/zh-tw.js"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "../../../node_modules/moment/locale sync recursive ^\\.\\/.*$";
+
+/***/ }),
+
+/***/ "./app/app.styles.ts":
+/*!***************************!*\
+  !*** ./app/app.styles.ts ***!
+  \***************************/
+/*! exports provided: useAppStyles */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "useAppStyles", function() { return useAppStyles; });
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @material-ui/core/styles */ "../../../node_modules/@material-ui/core/esm/styles/index.js");
+
+const useAppStyles = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_0__["makeStyles"])(theme => ({
+  horizontal: {
+    display: 'flex',
+    flexDirection: 'row',
+    padding: 0
+  },
+  box: {
+    paddingLeft: '30px'
+  },
+  fab: {
+    position: 'fixed',
+    bottom: theme.spacing(2),
+    right: theme.spacing(2),
+    '&@media print': {
+      dispay: 'none'
+    }
+  }
+}));
+
+/***/ }),
+
 /***/ "./app/app.tsx":
 /*!*********************!*\
   !*** ./app/app.tsx ***!
@@ -12,681 +347,501 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "App", function() { return App; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "../../../node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @emotion/styled */ "../../../node_modules/@emotion/styled/dist/styled.browser.esm.js");
-/* harmony import */ var _logo_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./logo.svg */ "./app/logo.svg");
-/* harmony import */ var _relay_relay__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./relay/relay */ "./app/relay/relay.tsx");
-/* harmony import */ var _star_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./star.svg */ "./app/star.svg");
-function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  /*\n * Remove template code below\n */\n\n  font-family: sans-serif;\n  min-width: 300px;\n  max-width: 600px;\n  margin: 50px auto;\n\n  .gutter-left {\n    margin-left: 9px;\n  }\n\n  .col-span-2 {\n    grid-column: span 2;\n  }\n\n  .flex {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n\n  header {\n    background-color: #143055;\n    color: white;\n    padding: 5px;\n    border-radius: 3px;\n  }\n\n  main {\n    padding: 0 36px;\n  }\n\n  p {\n    text-align: center;\n  }\n\n  h1 {\n    text-align: center;\n    margin-left: 18px;\n    font-size: 24px;\n  }\n\n  h2 {\n    text-align: center;\n    font-size: 20px;\n    margin: 40px 0 10px 0;\n  }\n\n  .resources {\n    text-align: center;\n    list-style: none;\n    padding: 0;\n    display: grid;\n    grid-gap: 9px;\n    grid-template-columns: 1fr 1fr;\n  }\n\n  .resource {\n    color: #0094ba;\n    height: 36px;\n    background-color: rgba(0, 0, 0, 0);\n    border: 1px solid rgba(0, 0, 0, 0.12);\n    border-radius: 4px;\n    padding: 3px 9px;\n    text-decoration: none;\n  }\n\n  .resource:hover {\n    background-color: rgba(68, 138, 255, 0.04);\n  }\n\n  pre {\n    padding: 9px;\n    border-radius: 4px;\n    background-color: black;\n    color: #eee;\n  }\n\n  details {\n    border-radius: 4px;\n    color: #333;\n    background-color: rgba(0, 0, 0, 0);\n    border: 1px solid rgba(0, 0, 0, 0.12);\n    padding: 3px 9px;\n    margin-bottom: 9px;\n  }\n\n  summary {\n    outline: none;\n    height: 36px;\n    line-height: 36px;\n  }\n\n  .github-star-container {\n    margin-top: 12px;\n    line-height: 20px;\n  }\n\n  .github-star-container a {\n    display: flex;\n    align-items: center;\n    text-decoration: none;\n    color: #333;\n  }\n\n  .github-star-badge {\n    color: #24292e;\n    display: flex;\n    align-items: center;\n    font-size: 12px;\n    padding: 3px 10px;\n    border: 1px solid rgba(27, 31, 35, 0.2);\n    border-radius: 3px;\n    background-image: linear-gradient(-180deg, #fafbfc, #eff3f6 90%);\n    margin-left: 4px;\n    font-weight: 600;\n  }\n\n  .github-star-badge:hover {\n    background-image: linear-gradient(-180deg, #f0f3f6, #e6ebf1 90%);\n    border-color: rgba(27, 31, 35, 0.35);\n    background-position: -0.5em;\n  }\n  .github-star-badge .material-icons {\n    height: 16px;\n    width: 16px;\n    margin-right: 4px;\n  }\n"]);
-
-  _templateObject = function _templateObject() {
-    return data;
-  };
-
-  return data;
-}
-
-function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material-ui/core/styles */ "../../../node_modules/@material-ui/core/esm/styles/index.js");
+/* harmony import */ var _material_ui_icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/icons */ "../../../node_modules/@material-ui/icons/esm/index.js");
+/* harmony import */ var _app_styles__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app.styles */ "./app/app.styles.ts");
+/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components */ "./app/components/index.ts");
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @material-ui/core */ "../../../node_modules/@material-ui/core/esm/index.js");
 
 
 
 
 
 
-var StyledApp = _emotion_styled__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject());
-var App = () => {
-  /*
-   * Replace the elements below with your own.
-   *
-   * Note: The corresponding styles are in the ./app.@emotion/styled file.
-   */
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(StyledApp, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
-    className: "flex"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_logo_svg__WEBPACK_IMPORTED_MODULE_2__["ReactComponent"], {
-    width: "75",
-    height: "75"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Welcome to portfolio!")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("main", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Resources & Tools"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Thank you for using and showing some \u2665 for Nx."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "flex github-star-container"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://github.com/nrwl/nx",
-    target: "_blank",
-    rel: "noopener noreferrer"
-  }, ' ', "If you like Nx, please give it a star:", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "github-star-badge"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _star_svg__WEBPACK_IMPORTED_MODULE_4__["default"],
-    className: "material-icons",
-    alt: ""
-  }), "Star"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Here are some links to help you get started."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_relay_relay__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    className: "resources"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "col-span-2"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "resource flex",
-    href: "https://connect.nrwl.io/app/courses/nx-workspaces/intro"
-  }, "Nx video course-")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "col-span-2"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "resource flex",
-    href: "https://nx.dev/react/getting-started/what-is-nx"
-  }, "Nx video tutorial")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "col-span-2"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "resource flex",
-    href: "https://nx.dev/react/tutorial/01-create-application"
-  }, "Interactive tutorial")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "col-span-2"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "resource flex",
-    href: "https://connect.nrwl.io/"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    height: "36",
-    alt: "Nrwl Connect",
-    src: "https://connect.nrwl.io/assets/img/CONNECT_ColorIcon.png"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "gutter-left"
-  }, "Nrwl Connect")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Next Steps"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Here are some things you can do with Nx."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("details", {
-    open: true
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("summary", null, "Add UI library"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("pre", null, "# Generate UI lib\nnx g @nrwl/react:lib ui\n\n# Add a component\nnx g @nrwl/react:component xyz --project ui")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("details", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("summary", null, "View dependency graph"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("pre", null, "nx dep-graph")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("details", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("summary", null, "Run affected commands"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("pre", null, "# see what's been affected by changes\nnx affected:dep-graph\n\n# run tests for current changes\nnx affected:test\n\n# run e2e tests for current changes\nnx affected:e2e\n"))));
+
+const theme = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_1__["createMuiTheme"])({
+  common: {
+    sidebarWidth: '200px'
+  },
+  palette: {
+    primary: {
+      main: '#c5bfb3'
+    },
+    secondary: {
+      main: '#515a77'
+    }
+  },
+  typography: {
+    fontFamily: "'Fira Code', monospace"
+  }
+});
+const App = () => {
+  const classes = Object(_app_styles__WEBPACK_IMPORTED_MODULE_3__["useAppStyles"])({
+    withTheme: true
+  });
+  const [data, setData] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])();
+  const [isLoading, setIsLoading] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(true);
+
+  const classNames = (...classNamez) => classNamez.join(' ');
+
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
+    fetch('assets/data.json').then(response => response.json()).then(data => setData(data)).then(() => setIsLoading(false));
+  }, []);
+  if (isLoading) return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Loading...");
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_1__["ThemeProvider"], {
+    theme: theme
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_4__["HeaderComponent"], {
+    name: data.name,
+    title: data.title,
+    summary: data.summary,
+    avatar: data.avatar,
+    contactOptions: data.contacts
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_5__["Box"], {
+    className: classNames(classes.horizontal)
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_4__["SkillsComponent"], {
+    skills: data.skills
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_4__["TimelineComponent"], {
+    timelineItems: data.jobs
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_5__["Box"], {
+    display: "block",
+    displayPrint: "none",
+    className: classes.fab
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_5__["Fab"], {
+    color: "secondary",
+    size: "small",
+    href: "assets/Adam Stortz.pdf",
+    "aria-label": "Download",
+    target: "_blank"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons__WEBPACK_IMPORTED_MODULE_2__["CloudDownload"], null)))));
 };
 /* harmony default export */ __webpack_exports__["default"] = (App);
 
 /***/ }),
 
-/***/ "./app/logo.svg":
-/*!**********************!*\
-  !*** ./app/logo.svg ***!
-  \**********************/
-/*! exports provided: default, ReactComponent */
+/***/ "./app/components/header/header.styles.ts":
+/*!************************************************!*\
+  !*** ./app/components/header/header.styles.ts ***!
+  \************************************************/
+/*! exports provided: useHeaderStyles */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ReactComponent", function() { return SvgLogo; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "../../../node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "useHeaderStyles", function() { return useHeaderStyles; });
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @material-ui/core/styles */ "../../../node_modules/@material-ui/core/esm/styles/index.js");
 
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
-
-
-
-var _ref2 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", {
-  id: "Styles-&-Quick-Wins",
-  stroke: "none",
-  strokeWidth: 1,
-  fill: "none",
-  fillRule: "evenodd"
-}, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", {
-  id: "Nx---Quick-Wins",
-  transform: "translate(-476.000000, -1284.000000)",
-  fillRule: "nonzero"
-}, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", {
-  id: "Logos",
-  transform: "translate(-11.000000, 782.000000)"
-}, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", {
-  id: "Nx_Flat_White",
-  transform: "translate(487.000000, 502.000000)"
-}, react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("polygon", {
-  id: "Path",
-  fill: "#FFFFFF",
-  points: "130.68 104.59 97.49 52.71 97.44 96.3 40.24 0 0 0 0 162.57 39.79 162.57 39.92 66.39 96.53 158.26"
-}), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("polygon", {
-  id: "Path",
-  fill: "#FFFFFF",
-  points: "97.5 41.79 137.24 41.79 137.33 41.33 137.33 0 97.54 0 97.49 41.33"
-}), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-  d: "M198.66,86.86 C189.139872,86.6795216 180.538723,92.516445 177.19,101.43 C182.764789,93.0931021 193.379673,89.7432211 202.73,93.37 C207.05,95.13 212.73,97.97 217.23,96.45 C212.950306,90.4438814 206.034895,86.8725952 198.66,86.86 L198.66,86.86 Z",
-  id: "Path",
-  fill: "#96D8E9"
-}), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-  d: "M243.75,106.42 C243.75,101.55 241.1,100.42 235.6,98.42 C231.52,97 226.89,95.4 223.52,91 C222.86,90.13 222.25,89.15 221.6,88.11 C220.14382,85.4164099 218.169266,83.037429 215.79,81.11 C212.58,78.75 208.37,77.6 202.91,77.6 C191.954261,77.6076705 182.084192,84.2206169 177.91,94.35 C183.186964,87.0278244 191.956716,83.0605026 200.940147,83.9314609 C209.923578,84.8024193 217.767888,90.3805017 221.54,98.58 C223.424615,101.689762 227.141337,103.174819 230.65,102.22 C236.02,101.07 235.65,106.15 243.76,107.87 L243.75,106.42 Z",
-  id: "Path",
-  fill: "#48C4E5"
-}), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-  d: "M261.46,105.38 L261.46,105.27 C261.34,73.03 235.17,45.45 202.91,45.45 C183.207085,45.4363165 164.821777,55.3450614 154,71.81 L153.79,71.45 L137.23,45.45 L97.5,45.4499858 L135.25,104.57 L98.41,162.57 L137,162.57 L153.79,136.78 L170.88,162.57 L209.48,162.57 L174.48,107.49 C173.899005,106.416838 173.583536,105.220114 173.56,104 C173.557346,96.2203871 176.64661,88.7586448 182.147627,83.2576275 C187.648645,77.7566101 195.110387,74.6673462 202.89,74.67 C219.11,74.67 221.82,84.37 225.32,88.93 C232.23,97.93 246.03,93.99 246.03,105.73 L246.03,105.73 C246.071086,108.480945 247.576662,111.001004 249.979593,112.340896 C252.382524,113.680787 255.317747,113.636949 257.679593,112.225896 C260.041438,110.814842 261.471086,108.250945 261.43,105.5 L261.43,105.5 L261.43,105.38 L261.46,105.38 Z",
-  id: "Path",
-  fill: "#FFFFFF"
-}), react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-  d: "M261.5,113.68 C261.892278,116.421801 261.504116,119.218653 260.38,121.75 C258.18,126.84 254.51,125.14 254.51,125.14 C254.51,125.14 251.35,123.6 253.27,120.65 C255.4,117.36 259.61,117.74 261.5,113.68 Z",
-  id: "Path",
-  fill: "#FFFFFF"
-})))));
-
-function SvgLogo(_ref) {
-  var title = _ref.title,
-      titleId = _ref.titleId,
-      props = _objectWithoutProperties(_ref, ["title", "titleId"]);
-
-  return react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", _extends({
-    width: "262px",
-    height: "163px",
-    viewBox: "0 0 262 163",
-    "aria-labelledby": titleId
-  }, props), title ? react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("title", {
-    id: titleId
-  }, title) : null, _ref2);
-}
-
-/* harmony default export */ __webpack_exports__["default"] = ("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjYycHgiIGhlaWdodD0iMTYzcHgiIHZpZXdCb3g9IjAgMCAyNjIgMTYzIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPGcgaWQ9IlN0eWxlcy0mYW1wOy1RdWljay1XaW5zIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iTngtLS1RdWljay1XaW5zIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNDc2LjAwMDAwMCwgLTEyODQuMDAwMDAwKSIgZmlsbC1ydWxlPSJub256ZXJvIj4KICAgICAgICAgICAgPGcgaWQ9IkxvZ29zIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTEuMDAwMDAwLCA3ODIuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8ZyBpZD0iTnhfRmxhdF9XaGl0ZSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNDg3LjAwMDAwMCwgNTAyLjAwMDAwMCkiPgogICAgICAgICAgICAgICAgICAgIDxwb2x5Z29uIGlkPSJQYXRoIiBmaWxsPSIjRkZGRkZGIiBwb2ludHM9IjEzMC42OCAxMDQuNTkgOTcuNDkgNTIuNzEgOTcuNDQgOTYuMyA0MC4yNCAwIDAgMCAwIDE2Mi41NyAzOS43OSAxNjIuNTcgMzkuOTIgNjYuMzkgOTYuNTMgMTU4LjI2Ij48L3BvbHlnb24+CiAgICAgICAgICAgICAgICAgICAgPHBvbHlnb24gaWQ9IlBhdGgiIGZpbGw9IiNGRkZGRkYiIHBvaW50cz0iOTcuNSA0MS43OSAxMzcuMjQgNDEuNzkgMTM3LjMzIDQxLjMzIDEzNy4zMyAwIDk3LjU0IDAgOTcuNDkgNDEuMzMiPjwvcG9seWdvbj4KICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMTk4LjY2LDg2Ljg2IEMxODkuMTM5ODcyLDg2LjY3OTUyMTYgMTgwLjUzODcyMyw5Mi41MTY0NDUgMTc3LjE5LDEwMS40MyBDMTgyLjc2NDc4OSw5My4wOTMxMDIxIDE5My4zNzk2NzMsODkuNzQzMjIxMSAyMDIuNzMsOTMuMzcgQzIwNy4wNSw5NS4xMyAyMTIuNzMsOTcuOTcgMjE3LjIzLDk2LjQ1IEMyMTIuOTUwMzA2LDkwLjQ0Mzg4MTQgMjA2LjAzNDg5NSw4Ni44NzI1OTUyIDE5OC42Niw4Ni44NiBMMTk4LjY2LDg2Ljg2IFoiIGlkPSJQYXRoIiBmaWxsPSIjOTZEOEU5Ij48L3BhdGg+CiAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTI0My43NSwxMDYuNDIgQzI0My43NSwxMDEuNTUgMjQxLjEsMTAwLjQyIDIzNS42LDk4LjQyIEMyMzEuNTIsOTcgMjI2Ljg5LDk1LjQgMjIzLjUyLDkxIEMyMjIuODYsOTAuMTMgMjIyLjI1LDg5LjE1IDIyMS42LDg4LjExIEMyMjAuMTQzODIsODUuNDE2NDA5OSAyMTguMTY5MjY2LDgzLjAzNzQyOSAyMTUuNzksODEuMTEgQzIxMi41OCw3OC43NSAyMDguMzcsNzcuNiAyMDIuOTEsNzcuNiBDMTkxLjk1NDI2MSw3Ny42MDc2NzA1IDE4Mi4wODQxOTIsODQuMjIwNjE2OSAxNzcuOTEsOTQuMzUgQzE4My4xODY5NjQsODcuMDI3ODI0NCAxOTEuOTU2NzE2LDgzLjA2MDUwMjYgMjAwLjk0MDE0Nyw4My45MzE0NjA5IEMyMDkuOTIzNTc4LDg0LjgwMjQxOTMgMjE3Ljc2Nzg4OCw5MC4zODA1MDE3IDIyMS41NCw5OC41OCBDMjIzLjQyNDYxNSwxMDEuNjg5NzYyIDIyNy4xNDEzMzcsMTAzLjE3NDgxOSAyMzAuNjUsMTAyLjIyIEMyMzYuMDIsMTAxLjA3IDIzNS42NSwxMDYuMTUgMjQzLjc2LDEwNy44NyBMMjQzLjc1LDEwNi40MiBaIiBpZD0iUGF0aCIgZmlsbD0iIzQ4QzRFNSI+PC9wYXRoPgogICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0yNjEuNDYsMTA1LjM4IEwyNjEuNDYsMTA1LjI3IEMyNjEuMzQsNzMuMDMgMjM1LjE3LDQ1LjQ1IDIwMi45MSw0NS40NSBDMTgzLjIwNzA4NSw0NS40MzYzMTY1IDE2NC44MjE3NzcsNTUuMzQ1MDYxNCAxNTQsNzEuODEgTDE1My43OSw3MS40NSBMMTM3LjIzLDQ1LjQ1IEw5Ny41LDQ1LjQ0OTk4NTggTDEzNS4yNSwxMDQuNTcgTDk4LjQxLDE2Mi41NyBMMTM3LDE2Mi41NyBMMTUzLjc5LDEzNi43OCBMMTcwLjg4LDE2Mi41NyBMMjA5LjQ4LDE2Mi41NyBMMTc0LjQ4LDEwNy40OSBDMTczLjg5OTAwNSwxMDYuNDE2ODM4IDE3My41ODM1MzYsMTA1LjIyMDExNCAxNzMuNTYsMTA0IEMxNzMuNTU3MzQ2LDk2LjIyMDM4NzEgMTc2LjY0NjYxLDg4Ljc1ODY0NDggMTgyLjE0NzYyNyw4My4yNTc2Mjc1IEMxODcuNjQ4NjQ1LDc3Ljc1NjYxMDEgMTk1LjExMDM4Nyw3NC42NjczNDYyIDIwMi44OSw3NC42NyBDMjE5LjExLDc0LjY3IDIyMS44Miw4NC4zNyAyMjUuMzIsODguOTMgQzIzMi4yMyw5Ny45MyAyNDYuMDMsOTMuOTkgMjQ2LjAzLDEwNS43MyBMMjQ2LjAzLDEwNS43MyBDMjQ2LjA3MTA4NiwxMDguNDgwOTQ1IDI0Ny41NzY2NjIsMTExLjAwMTAwNCAyNDkuOTc5NTkzLDExMi4zNDA4OTYgQzI1Mi4zODI1MjQsMTEzLjY4MDc4NyAyNTUuMzE3NzQ3LDExMy42MzY5NDkgMjU3LjY3OTU5MywxMTIuMjI1ODk2IEMyNjAuMDQxNDM4LDExMC44MTQ4NDIgMjYxLjQ3MTA4NiwxMDguMjUwOTQ1IDI2MS40MywxMDUuNSBMMjYxLjQzLDEwNS41IEwyNjEuNDMsMTA1LjM4IEwyNjEuNDYsMTA1LjM4IFoiIGlkPSJQYXRoIiBmaWxsPSIjRkZGRkZGIj48L3BhdGg+CiAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTI2MS41LDExMy42OCBDMjYxLjg5MjI3OCwxMTYuNDIxODAxIDI2MS41MDQxMTYsMTE5LjIxODY1MyAyNjAuMzgsMTIxLjc1IEMyNTguMTgsMTI2Ljg0IDI1NC41MSwxMjUuMTQgMjU0LjUxLDEyNS4xNCBDMjU0LjUxLDEyNS4xNCAyNTEuMzUsMTIzLjYgMjUzLjI3LDEyMC42NSBDMjU1LjQsMTE3LjM2IDI1OS42MSwxMTcuNzQgMjYxLjUsMTEzLjY4IFoiIGlkPSJQYXRoIiBmaWxsPSIjRkZGRkZGIj48L3BhdGg+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPgo=");
-
-
-/***/ }),
-
-/***/ "./app/relay/__generated__/relayGistsQuery.graphql.ts":
-/*!************************************************************!*\
-  !*** ./app/relay/__generated__/relayGistsQuery.graphql.ts ***!
-  \************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* tslint:disable */
-
-/* eslint-disable */
-
-/* @relayHash a6e2952e96bb378e58a2e5207fc473ef */
-
-/*
-query relayGistsQuery {
-  user(login: "adamstortz") {
-    name
-    gists(first: 5) {
-      nodes {
-        name
-        description
-        files {
-          name
-          extension
-          text
-        }
-        id
-      }
+const useHeaderStyles = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_0__["makeStyles"])(theme => ({
+  root: {
+    backgroundColor: theme.palette.primary.main,
+    color: theme.palette.primary.contrastText
+  },
+  link: {
+    color: 'white'
+  },
+  contactAvatar: {
+    minWidth: '32px'
+  },
+  contactBar: {
+    backgroundColor: theme.palette.secondary.main,
+    color: theme.palette.secondary.contrastText
+  },
+  horizontal: {
+    display: 'flex',
+    flexDirection: 'row',
+    padding: 0
+  },
+  box: {
+    paddingLeft: '30px',
+    '&.name': {
+      width: '120px'
+    },
+    '&.summary': {
+      width: '45%'
     }
-    id
+  },
+  noWrap: {
+    whiteSpace: 'nowrap'
+  },
+  headshot: {
+    width: theme.common.sidebarWidth
+  },
+  row1: {
+    height: theme.common.sidebarWidth
+  },
+  name: {
+    fontSize: theme.typography.h3.fontSize,
+    textTransform: 'uppercase'
+  },
+  title: {
+    fontSize: theme.typography.h6.fontSize,
+    fontWeight: 'bold'
+  },
+  summary: {
+    // marginLeft: '20px',
+    fontSize: theme.typography.h6.fontSize
   }
-}
-*/
-var node = function () {
-  var v0 = [{
-    "kind": "Literal",
-    "name": "login",
-    "value": "adamstortz"
-  }],
-      v1 = {
-    "kind": "ScalarField",
-    "alias": null,
-    "name": "name",
-    "args": null,
-    "storageKey": null
-  },
-      v2 = [{
-    "kind": "Literal",
-    "name": "first",
-    "value": 5
-  }],
-      v3 = {
-    "kind": "ScalarField",
-    "alias": null,
-    "name": "description",
-    "args": null,
-    "storageKey": null
-  },
-      v4 = {
-    "kind": "LinkedField",
-    "alias": null,
-    "name": "files",
-    "storageKey": null,
-    "args": null,
-    "concreteType": "GistFile",
-    "plural": true,
-    "selections": [v1
-    /*: any*/
-    , {
-      "kind": "ScalarField",
-      "alias": null,
-      "name": "extension",
-      "args": null,
-      "storageKey": null
-    }, {
-      "kind": "ScalarField",
-      "alias": null,
-      "name": "text",
-      "args": null,
-      "storageKey": null
-    }]
-  },
-      v5 = {
-    "kind": "ScalarField",
-    "alias": null,
-    "name": "id",
-    "args": null,
-    "storageKey": null
-  };
-  return {
-    "kind": "Request",
-    "fragment": {
-      "kind": "Fragment",
-      "name": "relayGistsQuery",
-      "type": "Query",
-      "metadata": null,
-      "argumentDefinitions": [],
-      "selections": [{
-        "kind": "LinkedField",
-        "alias": null,
-        "name": "user",
-        "storageKey": "user(login:\"adamstortz\")",
-        "args": v0
-        /*: any*/
-        ,
-        "concreteType": "User",
-        "plural": false,
-        "selections": [v1
-        /*: any*/
-        , {
-          "kind": "LinkedField",
-          "alias": null,
-          "name": "gists",
-          "storageKey": "gists(first:5)",
-          "args": v2
-          /*: any*/
-          ,
-          "concreteType": "GistConnection",
-          "plural": false,
-          "selections": [{
-            "kind": "LinkedField",
-            "alias": null,
-            "name": "nodes",
-            "storageKey": null,
-            "args": null,
-            "concreteType": "Gist",
-            "plural": true,
-            "selections": [v1
-            /*: any*/
-            , v3
-            /*: any*/
-            , v4
-            /*: any*/
-            ]
-          }]
-        }]
-      }]
-    },
-    "operation": {
-      "kind": "Operation",
-      "name": "relayGistsQuery",
-      "argumentDefinitions": [],
-      "selections": [{
-        "kind": "LinkedField",
-        "alias": null,
-        "name": "user",
-        "storageKey": "user(login:\"adamstortz\")",
-        "args": v0
-        /*: any*/
-        ,
-        "concreteType": "User",
-        "plural": false,
-        "selections": [v1
-        /*: any*/
-        , {
-          "kind": "LinkedField",
-          "alias": null,
-          "name": "gists",
-          "storageKey": "gists(first:5)",
-          "args": v2
-          /*: any*/
-          ,
-          "concreteType": "GistConnection",
-          "plural": false,
-          "selections": [{
-            "kind": "LinkedField",
-            "alias": null,
-            "name": "nodes",
-            "storageKey": null,
-            "args": null,
-            "concreteType": "Gist",
-            "plural": true,
-            "selections": [v1
-            /*: any*/
-            , v3
-            /*: any*/
-            , v4
-            /*: any*/
-            , v5
-            /*: any*/
-            ]
-          }]
-        }, v5
-        /*: any*/
-        ]
-      }]
-    },
-    "params": {
-      "operationKind": "query",
-      "name": "relayGistsQuery",
-      "id": null,
-      "text": "query relayGistsQuery {\n  user(login: \"adamstortz\") {\n    name\n    gists(first: 5) {\n      nodes {\n        name\n        description\n        files {\n          name\n          extension\n          text\n        }\n        id\n      }\n    }\n    id\n  }\n}\n",
-      "metadata": {}
-    }
-  };
-}();
-
-node.hash = 'e979bff334132228ac45890eeac792f8';
-/* harmony default export */ __webpack_exports__["default"] = (node);
-
-/***/ }),
-
-/***/ "./app/relay/__generated__/relayRepositoryNameQuery.graphql.ts":
-/*!*********************************************************************!*\
-  !*** ./app/relay/__generated__/relayRepositoryNameQuery.graphql.ts ***!
-  \*********************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* tslint:disable */
-
-/* eslint-disable */
-
-/* @relayHash cc7cc945f45f653cfebfbf20f3a7625c */
-
-/*
-query relayRepositoryNameQuery {
-  repository(owner: "adamstortz", name: "nx") {
-    name
-    id
-  }
-}
-*/
-var node = function () {
-  var v0 = [{
-    "kind": "Literal",
-    "name": "name",
-    "value": "nx"
-  }, {
-    "kind": "Literal",
-    "name": "owner",
-    "value": "adamstortz"
-  }],
-      v1 = {
-    "kind": "ScalarField",
-    "alias": null,
-    "name": "name",
-    "args": null,
-    "storageKey": null
-  };
-  return {
-    "kind": "Request",
-    "fragment": {
-      "kind": "Fragment",
-      "name": "relayRepositoryNameQuery",
-      "type": "Query",
-      "metadata": null,
-      "argumentDefinitions": [],
-      "selections": [{
-        "kind": "LinkedField",
-        "alias": null,
-        "name": "repository",
-        "storageKey": "repository(name:\"nx\",owner:\"adamstortz\")",
-        "args": v0
-        /*: any*/
-        ,
-        "concreteType": "Repository",
-        "plural": false,
-        "selections": [v1
-        /*: any*/
-        ]
-      }]
-    },
-    "operation": {
-      "kind": "Operation",
-      "name": "relayRepositoryNameQuery",
-      "argumentDefinitions": [],
-      "selections": [{
-        "kind": "LinkedField",
-        "alias": null,
-        "name": "repository",
-        "storageKey": "repository(name:\"nx\",owner:\"adamstortz\")",
-        "args": v0
-        /*: any*/
-        ,
-        "concreteType": "Repository",
-        "plural": false,
-        "selections": [v1
-        /*: any*/
-        , {
-          "kind": "ScalarField",
-          "alias": null,
-          "name": "id",
-          "args": null,
-          "storageKey": null
-        }]
-      }]
-    },
-    "params": {
-      "operationKind": "query",
-      "name": "relayRepositoryNameQuery",
-      "id": null,
-      "text": "query relayRepositoryNameQuery {\n  repository(owner: \"adamstortz\", name: \"nx\") {\n    name\n    id\n  }\n}\n",
-      "metadata": {}
-    }
-  };
-}();
-
-node.hash = '51601d5d03e1e69266ea53256633c442';
-/* harmony default export */ __webpack_exports__["default"] = (node);
-
-/***/ }),
-
-/***/ "./app/relay/fetchGraphQL.ts":
-/*!***********************************!*\
-  !*** ./app/relay/fetchGraphQL.ts ***!
-  \***********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var js_base64__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! js-base64 */ "../../../node_modules/js-base64/base64.js");
-/* harmony import */ var js_base64__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(js_base64__WEBPACK_IMPORTED_MODULE_0__);
-function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
-
-function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
-
-
-
-function fetchGraphQL(_x, _x2) {
-  return _fetchGraphQL.apply(this, arguments);
-}
-
-function _fetchGraphQL() {
-  _fetchGraphQL = _asyncToGenerator(function* (text, variables) {
-    var REACT_APP_GITHUB_AUTH_TOKEN = js_base64__WEBPACK_IMPORTED_MODULE_0__["Base64"].decode('MjNiYzQzZWY2MjRhNWJmZmM5ZTkzZjI5NzVlMjFmODBkY2NjNDBjNAo='); // Fetch data from GitHub's GraphQL API:
-
-    var response = yield fetch('https://api.github.com/graphql', {
-      method: 'POST',
-      headers: {
-        Authorization: "bearer ".concat(REACT_APP_GITHUB_AUTH_TOKEN),
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        query: text,
-        variables
-      })
-    }); // Get the response as JSON
-
-    return yield response.json();
-  });
-  return _fetchGraphQL.apply(this, arguments);
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (fetchGraphQL);
-
-/***/ }),
-
-/***/ "./app/relay/relay-enironment.ts":
-/*!***************************************!*\
-  !*** ./app/relay/relay-enironment.ts ***!
-  \***************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var relay_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! relay-runtime */ "../../../node_modules/relay-runtime/index.js");
-/* harmony import */ var relay_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(relay_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _fetchGraphQL__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./fetchGraphQL */ "./app/relay/fetchGraphQL.ts");
-function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
-
-function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
-
-
- // Relay passes a "params" object with the query name and text. So we define a helper function
-// to call our fetchGraphQL utility with params.text.
-
-function fetchRelay(_x, _x2) {
-  return _fetchRelay.apply(this, arguments);
-} // Export a singleton instance of Relay Environment configured with our network function:
-
-
-function _fetchRelay() {
-  _fetchRelay = _asyncToGenerator(function* (params, variables) {
-    console.log("fetching query ".concat(params.name, " with ").concat(JSON.stringify(variables)));
-    return Object(_fetchGraphQL__WEBPACK_IMPORTED_MODULE_1__["default"])(params.text, variables);
-  });
-  return _fetchRelay.apply(this, arguments);
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (new relay_runtime__WEBPACK_IMPORTED_MODULE_0__["Environment"]({
-  network: relay_runtime__WEBPACK_IMPORTED_MODULE_0__["Network"].create(fetchRelay),
-  store: new relay_runtime__WEBPACK_IMPORTED_MODULE_0__["Store"](new relay_runtime__WEBPACK_IMPORTED_MODULE_0__["RecordSource"]())
 }));
 
 /***/ }),
 
-/***/ "./app/relay/relay.tsx":
-/*!*****************************!*\
-  !*** ./app/relay/relay.tsx ***!
-  \*****************************/
-/*! exports provided: default */
+/***/ "./app/components/header/header.tsx":
+/*!******************************************!*\
+  !*** ./app/components/header/header.tsx ***!
+  \******************************************/
+/*! exports provided: HeaderComponent, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HeaderComponent", function() { return HeaderComponent; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "../../../node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_relay_hooks__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-relay/hooks */ "../../../node_modules/react-relay/hooks.js");
-/* harmony import */ var react_relay_hooks__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_relay_hooks__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _relay_enironment__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./relay-enironment */ "./app/relay/relay-enironment.ts");
-var _relayRepositoryNameQuery, _relayGistsQuery;
+/* harmony import */ var _material_ui_icons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material-ui/icons */ "../../../node_modules/@material-ui/icons/esm/index.js");
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core */ "../../../node_modules/@material-ui/core/esm/index.js");
+/* harmony import */ var _header_styles__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./header.styles */ "./app/components/header/header.styles.ts");
 
 
 
 
-var {
-  Suspense
-} = react__WEBPACK_IMPORTED_MODULE_0___default.a; // Define a query
+const icons = {
+  LinkedIn: _material_ui_icons__WEBPACK_IMPORTED_MODULE_1__["LinkedIn"],
+  Email: _material_ui_icons__WEBPACK_IMPORTED_MODULE_1__["Email"],
+  Phone: _material_ui_icons__WEBPACK_IMPORTED_MODULE_1__["Phone"],
+  Home: _material_ui_icons__WEBPACK_IMPORTED_MODULE_1__["Home"],
+  GitHub: _material_ui_icons__WEBPACK_IMPORTED_MODULE_1__["GitHub"]
+};
+const HeaderComponent = ({
+  avatar,
+  contactOptions,
+  name,
+  title,
+  summary
+}) => {
+  const classes = Object(_header_styles__WEBPACK_IMPORTED_MODULE_3__["useHeaderStyles"])({
+    withTheme: true
+  });
 
-var RepositoryNameQuery = _relayRepositoryNameQuery !== void 0 ? _relayRepositoryNameQuery : (_relayRepositoryNameQuery = __webpack_require__(/*! ./__generated__/relayRepositoryNameQuery.graphql */ "./app/relay/__generated__/relayRepositoryNameQuery.graphql.ts"), _relayRepositoryNameQuery.hash && _relayRepositoryNameQuery.hash !== "51601d5d03e1e69266ea53256633c442" && console.error("The definition of 'relayRepositoryNameQuery' appears to have changed. Run `relay-compiler` to update the generated files to receive the expected data."), _relayRepositoryNameQuery);
-var GistsQuery = _relayGistsQuery !== void 0 ? _relayGistsQuery : (_relayGistsQuery = __webpack_require__(/*! ./__generated__/relayGistsQuery.graphql */ "./app/relay/__generated__/relayGistsQuery.graphql.ts"), _relayGistsQuery.hash && _relayGistsQuery.hash !== "e979bff334132228ac45890eeac792f8" && console.error("The definition of 'relayGistsQuery' appears to have changed. Run `relay-compiler` to update the generated files to receive the expected data."), _relayGistsQuery); // Immediately load the query as our app starts. For a real app, we'd move this
-// into our routing configuration, preloading data as we transition to new routes.
-// const preloadedQuery = preloadQuery(RelayEnvironment, RepositoryNameQuery, {
+  const classNames = (...classNamez) => classNamez.join(' ');
 
-/* query variables */
-// });
-
-var gistsQuery = Object(react_relay_hooks__WEBPACK_IMPORTED_MODULE_1__["preloadQuery"])(_relay_enironment__WEBPACK_IMPORTED_MODULE_2__["default"], GistsQuery, {}); // Inner component that reads the preloaded query results via `usePreloadedQuery()`.
-// This works as follows:
-// - If the query has completed, it returns the results of the query.
-// - If the query is still pending, it "suspends" (indicates to React is isn't
-//   ready to render yet). This will show the nearest <Suspense> fallback.
-// - If the query failed, it throws the failure error. For simplicity we aren't
-//   handling the failure case here.
-
-function App(props) {
-  // const data = usePreloadedQuery(RepositoryNameQuery, props.preloadedQuery);
-  var gists = Object(react_relay_hooks__WEBPACK_IMPORTED_MODULE_1__["usePreloadedQuery"])(GistsQuery, props.gistsQuery);
-  var gistsRender = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, gists.user.name), gists.user.gists.nodes.map(gist => {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, gist.description), gist.files.map(file => {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, file.name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("pre", null, file.text));
-    }));
-  }));
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "App"
-  }, gistsRender);
-} // The above component needs to know how to access the Relay environment, and we
-// need to specify a fallback in case it suspends:
-// - <RelayEnvironmentProvider> tells child components how to talk to the current
-//   Relay Environment instance
-// - <Suspense> specifies a fallback in case a child suspends.
-
-
-function AppRoot(props) {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_relay_hooks__WEBPACK_IMPORTED_MODULE_1__["RelayEnvironmentProvider"], {
-    environment: _relay_enironment__WEBPACK_IMPORTED_MODULE_2__["default"]
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Suspense, {
-    fallback: 'Loading...'
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(App // preloadedQuery={preloadedQuery}
-  , {
-    gistsQuery: gistsQuery
-  })));
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (AppRoot);
+  const contacts = contactOptions.map((contactOption, optionIndex) => {
+    const contactKey = `contact-${optionIndex}`;
+    const Icon = icons[contactOption.type];
+    const itemText = contactOption.link ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+      className: classes.link,
+      underline: "always",
+      target: "_blank",
+      href: contactOption.link
+    }, contactOption.text[0]) : contactOption.text.map((text, textIndex) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: classes.noWrap,
+      key: `${contactKey}-text-${textIndex}`
+    }, text));
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["ListItem"], {
+      key: contactKey
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["ListItemAvatar"], {
+      className: classes.contactAvatar
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Icon, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["ListItemText"], null, itemText));
+  });
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Box"], {
+    className: classNames(classes.horizontal, classes.root, classes.row1)
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: classes.headshot,
+    alt: avatar.altText,
+    src: avatar.imageUri
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Box"], {
+    className: classNames(classes.box)
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
+    variant: "h2",
+    className: classes.name
+  }, name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
+    variant: "overline",
+    className: classes.title
+  }, title)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Box"], {
+    className: classNames(classes.box, 'summary')
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
+    variant: "body1",
+    className: classes.summary
+  }, summary))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["List"], {
+    dense: true,
+    className: classNames(classes.horizontal, classes.contactBar)
+  }, contacts));
+};
+/* harmony default export */ __webpack_exports__["default"] = (HeaderComponent);
 
 /***/ }),
 
-/***/ "./app/star.svg":
-/*!**********************!*\
-  !*** ./app/star.svg ***!
-  \**********************/
-/*! exports provided: default, ReactComponent */
+/***/ "./app/components/index.ts":
+/*!*********************************!*\
+  !*** ./app/components/index.ts ***!
+  \*********************************/
+/*! exports provided: HeaderComponent, SkillsComponent, TimelineComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ReactComponent", function() { return SvgStar; });
+/* harmony import */ var _header_header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./header/header */ "./app/components/header/header.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "HeaderComponent", function() { return _header_header__WEBPACK_IMPORTED_MODULE_0__["HeaderComponent"]; });
+
+/* harmony import */ var _skills_skills__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./skills/skills */ "./app/components/skills/skills.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SkillsComponent", function() { return _skills_skills__WEBPACK_IMPORTED_MODULE_1__["SkillsComponent"]; });
+
+/* harmony import */ var _timeline_timeline__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./timeline/timeline */ "./app/components/timeline/timeline.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TimelineComponent", function() { return _timeline_timeline__WEBPACK_IMPORTED_MODULE_2__["TimelineComponent"]; });
+
+
+
+
+
+/***/ }),
+
+/***/ "./app/components/skills/skills.styles.ts":
+/*!************************************************!*\
+  !*** ./app/components/skills/skills.styles.ts ***!
+  \************************************************/
+/*! exports provided: useSkillsStyles */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "useSkillsStyles", function() { return useSkillsStyles; });
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @material-ui/core/styles */ "../../../node_modules/@material-ui/core/esm/styles/index.js");
+
+const useSkillsStyles = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_0__["makeStyles"])(theme => ({
+  root: {
+    width: '160px',
+    minWidth: '160px',
+    marginLeft: '10px',
+    marginTop: '15px'
+  }
+}));
+
+/***/ }),
+
+/***/ "./app/components/skills/skills.tsx":
+/*!******************************************!*\
+  !*** ./app/components/skills/skills.tsx ***!
+  \******************************************/
+/*! exports provided: SkillsComponent, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SkillsComponent", function() { return SkillsComponent; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "../../../node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material-ui/core */ "../../../node_modules/@material-ui/core/esm/index.js");
+/* harmony import */ var _material_ui_lab_Rating__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/lab/Rating */ "../../../node_modules/@material-ui/lab/esm/Rating/index.js");
+/* harmony import */ var _material_ui_icons_WhatshotRounded__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/icons/WhatshotRounded */ "../../../node_modules/@material-ui/icons/WhatshotRounded.js");
+/* harmony import */ var _material_ui_icons_WhatshotRounded__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_WhatshotRounded__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _skills_styles__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./skills.styles */ "./app/components/skills/skills.styles.ts");
 
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
 
 
 
-var _ref2 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-  d: "M0 0h24v24H0z",
-  fill: "none"
-});
 
-var _ref3 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-  d: "M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
-});
+const SkillsComponent = ({
+  skills
+}) => {
+  const classes = Object(_skills_styles__WEBPACK_IMPORTED_MODULE_4__["useSkillsStyles"])();
+  const skillz = skills.map((skill, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    key: `skill-${index}`
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_1__["Typography"], {
+    component: "legend"
+  }, skill.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_lab_Rating__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    value: skill.rating,
+    readOnly: true,
+    icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_WhatshotRounded__WEBPACK_IMPORTED_MODULE_3___default.a, {
+      fontSize: "inherit"
+    }),
+    max: skill.rating < 5 ? 5 : skill.rating
+  })));
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+    className: classes.root
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_1__["Typography"], {
+    variant: "h4"
+  }, "Skills"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+    borderColor: "transparent"
+  }, skillz));
+};
+/* harmony default export */ __webpack_exports__["default"] = (SkillsComponent);
 
-function SvgStar(_ref) {
-  var title = _ref.title,
-      titleId = _ref.titleId,
-      props = _objectWithoutProperties(_ref, ["title", "titleId"]);
+/***/ }),
 
-  return react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", _extends({
-    className: "material-icons",
-    width: 24,
-    height: 24,
-    viewBox: "0 0 24 24",
-    "aria-labelledby": titleId
-  }, props), title ? react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("title", {
-    id: titleId
-  }, title) : null, _ref2, _ref3);
-}
+/***/ "./app/components/timeline/timeline.styles.ts":
+/*!****************************************************!*\
+  !*** ./app/components/timeline/timeline.styles.ts ***!
+  \****************************************************/
+/*! exports provided: useTimelineStyles */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-/* harmony default export */ __webpack_exports__["default"] = ("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZwogICAgICAgIGNsYXNzTmFtZT0ibWF0ZXJpYWwtaWNvbnMiCiAgICAgICAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogICAgICAgIHdpZHRoPSIyNCIKICAgICAgICBoZWlnaHQ9IjI0IgogICAgICAgIHZpZXdCb3g9IjAgMCAyNCAyNCIKPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIgLz4KICAgIDxwYXRoIGQ9Ik0xMiAxNy4yN0wxOC4xOCAyMWwtMS42NC03LjAzTDIyIDkuMjRsLTcuMTktLjYxTDEyIDIgOS4xOSA4LjYzIDIgOS4yNGw1LjQ2IDQuNzNMNS44MiAyMXoiIC8+Cjwvc3ZnPgo=");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "useTimelineStyles", function() { return useTimelineStyles; });
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @material-ui/core/styles */ "../../../node_modules/@material-ui/core/esm/styles/index.js");
 
+const useTimelineStyles = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_0__["makeStyles"])(theme => ({
+  logo: {
+    width: '95%',
+    height: '95%',
+    marginLeft: '1px',
+    marginTop: '1px'
+  },
+  missingOppositeContent: {
+    '&:before': {
+      flex: 0,
+      padding: 0
+    }
+  },
+  paper: {
+    padding: '6px 16px'
+  },
+  transparentTail: {
+    backgroundColor: 'transparent'
+  },
+  primaryTail: {
+    backgroundColor: theme.palette.secondary.main
+  },
+  primaryDot: {
+    borderColor: theme.palette.primary.main
+  },
+  noOpposite: {
+    flex: 'none'
+  },
+  logoDot: {
+    width: '24px',
+    height: '24px'
+  },
+  emptyDotSeperator: {
+    minWidth: '36px'
+  },
+  emptyDot: {
+    marginLeft: '12px'
+  }
+}));
+
+/***/ }),
+
+/***/ "./app/components/timeline/timeline.tsx":
+/*!**********************************************!*\
+  !*** ./app/components/timeline/timeline.tsx ***!
+  \**********************************************/
+/*! exports provided: TimelineComponent, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TimelineComponent", function() { return TimelineComponent; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "../../../node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! moment */ "../../../node_modules/moment/moment.js");
+/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core/styles */ "../../../node_modules/@material-ui/core/esm/styles/index.js");
+/* harmony import */ var _material_ui_lab_Timeline__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/lab/Timeline */ "../../../node_modules/@material-ui/lab/esm/Timeline/index.js");
+/* harmony import */ var _material_ui_lab_TimelineItem__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/lab/TimelineItem */ "../../../node_modules/@material-ui/lab/esm/TimelineItem/index.js");
+/* harmony import */ var _material_ui_lab_TimelineSeparator__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @material-ui/lab/TimelineSeparator */ "../../../node_modules/@material-ui/lab/esm/TimelineSeparator/index.js");
+/* harmony import */ var _material_ui_lab_TimelineConnector__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @material-ui/lab/TimelineConnector */ "../../../node_modules/@material-ui/lab/esm/TimelineConnector/index.js");
+/* harmony import */ var _material_ui_lab_TimelineContent__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @material-ui/lab/TimelineContent */ "../../../node_modules/@material-ui/lab/esm/TimelineContent/index.js");
+/* harmony import */ var _material_ui_lab_TimelineDot__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @material-ui/lab/TimelineDot */ "../../../node_modules/@material-ui/lab/esm/TimelineDot/index.js");
+/* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @material-ui/core/Typography */ "../../../node_modules/@material-ui/core/esm/Typography/index.js");
+/* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @material-ui/core/Grid */ "../../../node_modules/@material-ui/core/esm/Grid/index.js");
+/* harmony import */ var _timeline_styles__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./timeline.styles */ "./app/components/timeline/timeline.styles.ts");
+
+
+
+
+
+
+
+
+
+
+
+
+const StyledTimelineItem = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__["withStyles"])({
+  missingOppositeContent: {
+    '&:before': {
+      flex: 0,
+      padding: 0
+    }
+  }
+})(_material_ui_lab_TimelineItem__WEBPACK_IMPORTED_MODULE_4__["default"]);
+
+const classNames = (...classNamez) => classNamez.join(' ');
+
+const formatDate = date => date ? moment__WEBPACK_IMPORTED_MODULE_1___default()(date).format('YYYY-MM-DD') : 'Present';
+
+const TimelineComponent = props => {
+  const classes = Object(_timeline_styles__WEBPACK_IMPORTED_MODULE_11__["useTimelineStyles"])();
+  const timelineItems = props.timelineItems.map((timelineItem, index) => {
+    const employerNode = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(StyledTimelineItem, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_lab_TimelineSeparator__WEBPACK_IMPORTED_MODULE_5__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_lab_TimelineConnector__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      className: index > 0 ? classes.primaryTail : classes.transparentTail
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_lab_TimelineDot__WEBPACK_IMPORTED_MODULE_8__["default"], {
+      className: classNames(classes.logoDot, classes.primaryDot),
+      variant: "outlined"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      className: classes.logo,
+      src: timelineItem.employer.logo
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_lab_TimelineConnector__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      className: classes.primaryTail
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_lab_TimelineContent__WEBPACK_IMPORTED_MODULE_7__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_10__["default"], {
+      container: true,
+      spacing: 1
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_10__["default"], {
+      item: true,
+      xs: true
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      variant: "h6",
+      component: "h1"
+    }, timelineItem.employer.name)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_10__["default"], {
+      item: true,
+      xs: 4
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      variant: "body2",
+      color: "textSecondary",
+      align: "right"
+    }, formatDate(timelineItem.start), " -", ' ', formatDate(timelineItem.end)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      variant: "subtitle2",
+      color: "textSecondary"
+    }, timelineItem.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      variant: "body1"
+    }, timelineItem.description)));
+    const projectNodes = timelineItem.projects.map((project, projectIndex) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(StyledTimelineItem, {
+      key: `timelineItem-${index}-project-${projectIndex}`
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_lab_TimelineSeparator__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      className: classes.emptyDotSeperator
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_lab_TimelineConnector__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      className: classes.primaryTail
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_lab_TimelineDot__WEBPACK_IMPORTED_MODULE_8__["default"], {
+      className: classNames(classes.emptyDot, classes.primaryTail)
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_lab_TimelineConnector__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      className: classes.primaryTail
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_lab_TimelineContent__WEBPACK_IMPORTED_MODULE_7__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_10__["default"], {
+      container: true,
+      spacing: 1
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_10__["default"], {
+      item: true,
+      xs: true
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      variant: "h6",
+      component: "h1"
+    }, project.title)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_10__["default"], {
+      item: true,
+      xs: 5
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      variant: "body2",
+      color: "textSecondary",
+      align: "right"
+    }, project.tech.join(', ')))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      variant: "body1"
+    }, project.description))));
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      key: `timelineItem-${index}`
+    }, employerNode, projectNodes);
+  });
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_lab_Timeline__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    align: "left"
+  }, timelineItems);
+};
+/* harmony default export */ __webpack_exports__["default"] = (TimelineComponent);
 
 /***/ }),
 
@@ -707,7 +862,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_app_app__WEBPACK_IMPORTED_MODULE_2__["default"], null), document.getElementById('root'));
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.StrictMode, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_app_app__WEBPACK_IMPORTED_MODULE_2__["default"], null)), document.getElementById('root'));
 
 /***/ }),
 
@@ -718,7 +873,7 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/runner/work/adamstortz.github.io/adamstortz.github.io/apps/portfolio/src/main.tsx */"./main.tsx");
+module.exports = __webpack_require__(/*! /home/runner/work/adamstortz.github.io/adamstortz.github.io/apps/github-io/src/main.tsx */"./main.tsx");
 
 
 /***/ })
